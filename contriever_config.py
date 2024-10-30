@@ -24,7 +24,7 @@ def parse_retriever_arguments():
         "--save_or_load_index", action="store_true", help="If enabled, save index and load index if it exists"
     )
     parser.add_argument(
-        "--model_name_or_path", type=str, default="/root/autodl-tmp/contriever-msmarco", help="path to directory containing model weights and config file"
+        "--model_name_or_path", type=str, default="/content/drive/MyDrive/ra-isf/contriever_model", help="path to directory containing model weights and config file"
     )
     parser.add_argument("--no_fp16", action="store_true", help="inference in fp32")
     parser.add_argument("--question_maxlength", type=int, default=512, help="Maximum number of tokens in a question")

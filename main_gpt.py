@@ -23,7 +23,7 @@ from contriever_config import c_args
 from collections import Counter
 from utils import write_json, print_now, load_data, print_exp, mkpath
 # from source.model.llama2_predict import predict, model_init
-from source.model.gpt3_predict import predict
+from source.model.gpt_predict import predict,model_init
 
 from transformers import LlamaTokenizer, LlamaForCausalLM, AutoConfig
 
@@ -31,10 +31,11 @@ from retrieval_contriever.passage_retrieval import embed_queries, index_encoded_
 from source.arch.passage_relevance.pr import Passage_Relevance_Model
 from source.arch.self_knowledge.sk import Self_Knowledge_Model
 from source.arch.task_decomposition.td import Task_Decomposition_Model
-
+from transformers import AutoModel, AutoTokenizer
 
 import retrieval_contriever.src.index
 import retrieval_contriever.src.contriever
+from retrieval_contriever.src.data import load_passages
 
 def load_dataset(data_path):
     dataset = list()
@@ -81,10 +82,11 @@ def mean_pooling(token_embeddings, mask):
 
 
 def load_contriever():
-    print(f"Loading model from: {c_args.model_name_or_path}")
-    model, tokenizer, _ = retrieval_contriever.src.contriever.load_retriever(c_args.model_name_or_path)
+    model_name = "facebook/contriever-msmarco"  # Using the model ID from Hugging Face
+    print(f"Loading model from: {model_name}")
+    model = AutoModel.from_pretrained(model_name)
+    tokenizer = AutoTokenizer.from_pretrained(model_name)
     return model, tokenizer
-
 
 def load_passages_id_map():
     index = retrieval_contriever.src.index.Indexer(c_args.projection_size, c_args.n_subquantizers, c_args.n_bits)
@@ -93,7 +95,7 @@ def load_passages_id_map():
     input_paths = sorted(input_paths)
     embeddings_dir = os.path.dirname(input_paths[0])
     index_path = os.path.join(embeddings_dir, "index.faiss")
-    if c.save_or_load_index and os.path.exists(index_path):
+    if c_args.save_or_load_index and os.path.exists(index_path):
         index.deserialize_from(embeddings_dir)
     else:
         print(f"Indexing passages from files {input_paths}")
@@ -104,7 +106,7 @@ def load_passages_id_map():
             index.serialize(embeddings_dir)
 
     # load passages
-    passages = src.data.load_passages(c_args.passages)
+    passages = load_passages(c_args.passages)
     passage_id_map = {x["id"]: x for x in passages}
     return passage_id_map, index
 
@@ -125,7 +127,7 @@ def beam_retrieve(input, contriever_model, contriever_tokenizer, passage_id_map,
         m_scores.append(scores)
     return m_docs, m_scores
 
-def llama_model_init():
+def gpt_mdoel_init():
     # contriever, contriever_tokenizer = load_contriever()
     base_model = model_init(args.base_model_path)
     sk_model, sk_tokenizer = model_init(args.self_knowledge_model_path)
@@ -167,7 +169,7 @@ def problem_solving(input, iter, SKM, PRM, TDM, contriever, contriever_tokenizer
     answer = predict(args, input[0] + sub_str + input[1])
     return answer
 
-def run_llama(dataset, SKM, PRM, TDM, contriever, contriever_tokenizer, base_model, tokenizer, passage_id_map, index):
+def run_gpt(dataset, SKM, PRM, TDM, contriever, contriever_tokenizer, base_model, tokenizer, passage_id_map, index):
     answer_set = list()
     for idx, data in enumerate(dataset):
         input = [data['context'], data['query']] 
@@ -176,6 +178,7 @@ def run_llama(dataset, SKM, PRM, TDM, contriever, contriever_tokenizer, base_mod
     with open(args.output_path, 'a', encoding = "UTF-8") as f:
         for idx, ans in enumerate(answer_set):
             f.write(json.dumps(ans) + '\n')
+            
  
 
 if __name__ == '__main__':
@@ -185,6 +188,6 @@ if __name__ == '__main__':
     contriever, contriever_tokenizer = load_contriever()
     dataset = load_dataset(args.data_path)
     passage_id_map, index = load_passages_id_map()
-    SKM, PRM, TDM = llama_model_init()
-    answer = run_llama(dataset, SKM, PRM, TDM, contriever, passage_id_map, index)
+    SKM, PRM, TDM = gpt_mdoel_init()
+    answer = run_gpt(dataset, SKM, PRM, TDM, contriever, passage_id_map, index)
     # print(answer)
