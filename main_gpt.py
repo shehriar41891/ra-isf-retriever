@@ -91,7 +91,7 @@ def load_contriever():
 def load_passages_id_map():
     index = retrieval_contriever.src.index.Indexer(c_args.projection_size, c_args.n_subquantizers, c_args.n_bits)
     # index all passages
-    input_paths = glob.glob(c_args.passages_embeddings)
+    input_paths = glob.glob('/content/drive/MyDrive/ra-isf/data/retrieval_wiki/extracted_files/wikipedia_embeddings/*')
     input_paths = sorted(input_paths)
     embeddings_dir = os.path.dirname(input_paths[0])
     index_path = os.path.join(embeddings_dir, "index.faiss")
@@ -106,7 +106,7 @@ def load_passages_id_map():
             index.serialize(embeddings_dir)
 
     # load passages
-    passages = load_passages(c_args.passages)
+    passages = load_passages('/content/drive/MyDrive/ra-isf/data/retrieval_wiki/passage.tsv.gz')
     passage_id_map = {x["id"]: x for x in passages}
     return passage_id_map, index
 
@@ -184,10 +184,23 @@ def run_gpt(dataset, SKM, PRM, TDM, contriever, contriever_tokenizer, base_model
 if __name__ == '__main__':
     print_exp(args)
     print_exp(c_args)
-    # base_model, tokenizer = model_init(args.base_model_path)
+    
+    # Load the base model and tokenizer
+    base_model, tokenizer = model_init(args.base_model_path)
+    
+    # Load the Contriever model and tokenizer
     contriever, contriever_tokenizer = load_contriever()
+    
+    # Load the dataset
     dataset = load_dataset(args.data_path)
+    
+    # Load the passage ID map and index
     passage_id_map, index = load_passages_id_map()
+    
+    # Initialize submodels: Self-Knowledge, Passage-Relevance, Task-Decomposition
     SKM, PRM, TDM = gpt_mdoel_init()
-    answer = run_gpt(dataset, SKM, PRM, TDM, contriever, passage_id_map, index)
-    # print(answer)
+    
+    # Call run_gpt with all required arguments
+    answer = run_gpt(dataset, SKM, PRM, TDM, contriever, contriever_tokenizer, base_model, tokenizer, passage_id_map, index)
+    
+    print(answer)

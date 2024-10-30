@@ -2,6 +2,7 @@
 
 import os
 import glob
+import gzip #further addition
 import torch
 import random
 import json
@@ -224,21 +225,50 @@ def add_bos_eos(x, bos_token_id, eos_token_id):
 
 
 # Used for passage retrieval
-def load_passages(path):
+# def load_passages(path):
+#     if not os.path.exists(path):
+#         logger.info(f"{path} does not exist")
+#         return
+#     logger.info(f"Loading passages from: {path}")
+#     passages = []
+#     with open(path) as fin:
+#         if path.endswith(".jsonl"):
+#             for k, line in enumerate(fin):
+#                 ex = json.loads(line)
+#                 passages.append(ex)
+#         else:
+#             reader = csv.reader(fin, delimiter="\t")
+#             for k, row in enumerate(reader):
+#                 if not row[0] == "id":
+#                     ex = {"id": row[0], "title": row[2], "text": row[1]}
+#                     passages.append(ex)
+#     return passages
+
+def load_passages(path, limit=None):
     if not os.path.exists(path):
         logger.info(f"{path} does not exist")
-        return
+        return []
+
     logger.info(f"Loading passages from: {path}")
     passages = []
-    with open(path) as fin:
+
+    # Use gzip to open the file if it ends with .gz
+    open_func = gzip.open if path.endswith(".gz") else open
+    
+    with open_func(path, 'rt', encoding='utf-8') as fin:
         if path.endswith(".jsonl"):
             for k, line in enumerate(fin):
+                if limit is not None and k >= limit:
+                    break
                 ex = json.loads(line)
                 passages.append(ex)
         else:
             reader = csv.reader(fin, delimiter="\t")
             for k, row in enumerate(reader):
-                if not row[0] == "id":
+                if limit is not None and k >= limit:
+                    break
+                if not row[0] == "id":  # Skip header row
                     ex = {"id": row[0], "title": row[2], "text": row[1]}
                     passages.append(ex)
+
     return passages

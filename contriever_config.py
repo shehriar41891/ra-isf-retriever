@@ -10,8 +10,21 @@ def parse_retriever_arguments():
         default=None,
         help=".json file containing question and answers, similar format to reader data",
     )
-    parser.add_argument("--passages", type=str, default=None, help="Path to passages (.tsv file)")
-    parser.add_argument("--passages_embeddings", type=str, default=None, help="Glob path to encoded passages")
+    
+    parser.add_argument(
+        "--passages",
+        type=str,
+        default="/content/drive/MyDrive/ra-isf/data/retrieval_wiki/psgs_w100.tsv.gz",
+        help="Path to passages (.tsv file)"
+    )
+    
+    parser.add_argument(
+        "--passages_embeddings",
+        type=str,
+        default="/content/drive/MyDrive/ra-isf/data/retrieval_wiki/wikipedia_embeddings/*.tar",
+        help="Glob path to encoded passages"
+    )
+    
     parser.add_argument(
         "--output_dir", type=str, default=None, help="Results are written to outputdir with data suffix"
     )
@@ -43,7 +56,9 @@ def parse_retriever_arguments():
     parser.add_argument("--dataset", type=str, default="none")
     parser.add_argument("--lowercase", action="store_true", help="lowercase text before encoding")
     parser.add_argument("--normalize_text", action="store_true", help="normalize text")
+    
     parsed_args = parser.parse_args()
     return parsed_args
 
 c_args = parse_retriever_arguments()
+

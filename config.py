@@ -30,17 +30,18 @@ def parse_arguments():
         "--api_key", default="", help="gpt3.5 api key"
     )
     parser.add_argument(
-        "--base_model_path", default='/content/drive/MyDrive/ra-isf/gpt2_model_tok', help="your local model path"
+    "--base_model_path", default='gpt2', help="your local model path or Hugging Face model ID"
     )
     parser.add_argument(
-        "--self_knowledge_model_path", default='/content/drive/MyDrive/ra-isf/gpt2_model_tok', help="submodel self-knowledge path"
+    "--self_knowledge_model_path", default='gpt2', help="submodel self-knowledge path"
     )
     parser.add_argument(
-        "--passage_relevance_model_path", default='/content/drive/MyDrive/ra-isf/gpt2_model_tok', help="submodel passage_relevance path"
+    "--passage_relevance_model_path", default='gpt2', help="submodel passage_relevance path"
     )
     parser.add_argument(
-        "--task_decomposition_model_path", default='/content/drive/MyDrive/ra-isf/gpt2_model_tok', help="submodel task_decomposition path"
+    "--task_decomposition_model_path", default='gpt2', help="submodel task_decomposition path"
     )
+
     parser.add_argument(
         "--data_path", default='dataset/natural_question/nq_open.json', help="your local data path"
     )
