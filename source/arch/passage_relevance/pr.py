@@ -22,10 +22,12 @@ class Passage_Relevance_Model():
         self.tokenizer = tokenizer
 
     def find_relevance(self, context, query, passage):
-        inputs = tokenizer(context + query + "\nPassage: " + passage, return_tensors="pt").to('cuda')
-        generate_ids = model.generate(**inputs, max_length=512, temperature=args.temperature)
+        print('We have to enter into PRM module')
+        inputs = self.tokenizer(context + query + "\nPassage: " + passage, return_tensors="pt").to('cuda')
+        generate_ids = self.model.generate(**inputs, max_length=512, temperature=0)
         generate_ids = generate_ids[0][len(inputs["input_ids"][0]):-1]
-        result = tokenizer.decode(generate_ids)
+        result = self.tokenizer.decode(generate_ids)
+        print('Result from PRM is ',result)
         if result == "relevance":
             return True
         elif result == "irrelevance":

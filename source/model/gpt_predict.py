@@ -26,6 +26,8 @@ def predict(args, prompt, model, tokenizer):
     generate_ids = generate_ids[0][len(inputs["input_ids"][0]):]  
     infer_res = tokenizer.decode(generate_ids, skip_special_tokens=True)  
     
+    print('the result of infer from predict function is ',infer_res)
+    
     return infer_res
 
 

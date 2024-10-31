@@ -133,6 +133,7 @@ def gpt_mdoel_init():
     sk_model, sk_tokenizer = model_init(args.self_knowledge_model_path)
     pr_model, pr_tokenizer = model_init(args.passage_relevance_model_path)
     td_model, td_tokenizer = model_init(args.task_decomposition_model_path)
+    print('Sk_model is ',sk_model)
     return Self_Knowledge_Model(sk_model, sk_tokenizer), Passage_Relevance_Model(pr_model, pr_tokenizer), Task_Decomposition_Model(td_model, td_tokenizer)
 
 def problem_solving(input, iter, SKM, PRM, TDM, contriever, contriever_tokenizer, base_model, tokenizer, passage_id_map, index):

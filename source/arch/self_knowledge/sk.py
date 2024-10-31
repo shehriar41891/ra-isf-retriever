@@ -22,10 +22,12 @@ class Self_Knowledge_Model():
         self.tokenizer = tokenizer
 
     def find_known(self, context, query):
-        inputs = tokenizer(context + query, return_tensors="pt").to('cuda')
-        generate_ids = model.generate(**inputs, max_length=512, temperature=args.temperature)
+        print('Here we start with SRM module')
+        inputs = self.tokenizer(context + query, return_tensors="pt").to('cuda')
+        generate_ids = self.model.generate(**inputs, max_length=512, temperature=0)
         generate_ids = generate_ids[0][len(inputs["input_ids"][0]):-1]
-        result = tokenizer.decode(generate_ids)
+        result = self.tokenizer.decode(generate_ids)
+        print('The result from SKM is ',result)
         if result == "know":
             return True
         elif result == "unknow":

@@ -21,12 +21,13 @@ class Task_Decomposition_Model():
         self.model = model
         self.tokenizer = tokenizer
         self.query_list = list()
-
     def decompose(self, context, query):
-        inputs = tokenizer(context + query, return_tensors="pt").to('cuda')
-        generate_ids = model.generate(**inputs, max_length=512, temperature=args.temperature)
+        print('We have to enter into TDM branch')
+        inputs = self.tokenizer(context + query, return_tensors="pt").to('cuda')
+        generate_ids = self.model.generate(**inputs, max_length=512, temperature=0)
         generate_ids = generate_ids[0][len(inputs["input_ids"][0]):-1]
-        result = tokenizer.decode(generate_ids)
+        result = self.tokenizer.decode(generate_ids)
+        print('Th result from TDM branch is ',result)
         try:
             data = json.loads(result)
             for idx, q in data['query']:
