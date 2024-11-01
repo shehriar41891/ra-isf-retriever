@@ -27,6 +27,9 @@ def embed_passages(args, passages, model, tokenizer):
     total = 0
     allids, allembeddings = [], []
     batch_ids, batch_text = [], []
+    device = torch.device("cuda" if torch.cuda.is_available() else "cpu")  # Select GPU if available, otherwise CPU
+    model.to(device)  # Move model to the correct device
+
     with torch.no_grad():
         for k, p in enumerate(passages):
             batch_ids.append(p["id"])
@@ -50,9 +53,11 @@ def embed_passages(args, passages, model, tokenizer):
                     truncation=True,
                 )
 
-                encoded_batch = {k: v.cuda() for k, v in encoded_batch.items()}
+                # Move encoded batch to the appropriate device (GPU or CPU)
+                encoded_batch = {key: value.to(device) for key, value in encoded_batch.items()}
                 embeddings = model(**encoded_batch)
 
+                # Always move embeddings back to CPU to store the results
                 embeddings = embeddings.cpu()
                 total += len(batch_ids)
                 allids.extend(batch_ids)
@@ -65,6 +70,7 @@ def embed_passages(args, passages, model, tokenizer):
 
     allembeddings = torch.cat(allembeddings, dim=0).numpy()
     return allids, allembeddings
+
 
 
 def main(args):

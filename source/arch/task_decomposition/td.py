@@ -11,6 +11,7 @@ import logging
 import pickle
 import time
 import glob
+import torch
 
 import numpy as np
 import torch
@@ -23,7 +24,8 @@ class Task_Decomposition_Model():
         self.query_list = list()
     def decompose(self, context, query):
         print('We have to enter into TDM branch')
-        inputs = self.tokenizer(context + query, return_tensors="pt").to('cuda')
+        device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
+        inputs = self.tokenizer(" ".join(context) + " " + query, return_tensors="pt").to(device)
         generate_ids = self.model.generate(**inputs, max_length=512, temperature=0)
         generate_ids = generate_ids[0][len(inputs["input_ids"][0]):-1]
         result = self.tokenizer.decode(generate_ids)
@@ -33,4 +35,4 @@ class Task_Decomposition_Model():
             for idx, q in data['query']:
                 self.query_list.append(q)
         except json.JSONDecodeError:
-            print(f"Invalid format on TDM query: {context + query}, json_string: {result}")
+            print(f"Invalid format on TDM query: json_string: {result}")

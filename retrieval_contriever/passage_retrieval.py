@@ -25,9 +25,13 @@ import retrieval_contriever.src.slurm
 import retrieval_contriever.src.data
 from retrieval_contriever.src.evaluation import calculate_matches
 import retrieval_contriever.src.normalize_text
+import torch
 
 os.environ["TOKENIZERS_PARALLELISM"] = "true"
 
+# Check if GPU is available and set the device accordingly
+device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
+print(f"Using device: {device}")
 
 def embed_queries(args, queries, model, tokenizer):
     model.eval()
@@ -50,9 +54,13 @@ def embed_queries(args, queries, model, tokenizer):
                     padding=True,
                     truncation=True,
                 )
-                encoded_batch = {k: v.cuda() for k, v in encoded_batch.items()}
+
+                # Move encoded_batch to the correct device (GPU/CPU)
+                encoded_batch = {k: v.to(device) for k, v in encoded_batch.items()}
                 output = model(**encoded_batch)
-                embeddings.append(output.cpu())
+
+                # If using GPU, move the output back to CPU before appending
+                embeddings.append(output.cpu() if torch.cuda.is_available() else output)
 
                 batch_question = []
 

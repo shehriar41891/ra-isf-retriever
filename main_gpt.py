@@ -111,20 +111,28 @@ def load_passages_id_map():
     return passage_id_map, index
 
 def beam_retrieve(input, contriever_model, contriever_tokenizer, passage_id_map, index):
-    queries = [input[0] + input[1]]
-        # queries = [ex["question"] for ex in data]
+    device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
+    
+    # Ensure input is properly formatted
+    queries = [" ".join(input[0]) + " " + " ".join(input[1])] if isinstance(input[0], list) and isinstance(input[1], list) else [str(input[0]) + " " + str(input[1])]
+    
+    # Get embeddings of queries
     questions_embedding = embed_queries(c_args, queries, contriever_model, contriever_tokenizer)
+
     # get top k results
-    # start_time_retrieval = time.time()
     top_ids_and_scores = index.search_knn(questions_embedding, c_args.n_docs)
-    # print(f"Search time: {time.time()-start_time_retrieval:.1f} s.")
-    m_docs = list()
-    m_scores = list()
+
+    print('The top ids retrieved are',top_ids_and_scores)
+
+    m_docs = []
+    m_scores = []
     for i, score in enumerate(top_ids_and_scores):
         docs = [passage_id_map[doc_id] for doc_id in score[0]]
-        scores = [str[score] for score in score[1]]
+        print(docs)
+        scores = [str(s) for s in score[1]]  # corrected indexing
         m_docs.append(docs)
         m_scores.append(scores)
+
     return m_docs, m_scores
 
 def gpt_mdoel_init():
@@ -143,20 +151,20 @@ def problem_solving(input, iter, SKM, PRM, TDM, contriever, contriever_tokenizer
         prompt = "Give the answer to the question: "
         answer = predict(args, input[0] + prompt + input[1])
         return answer
-    m_docs, m_scores = beam_retrieve(input, contriever, contriever_tokenizer, passage_id_map, index)
-    r_docs = []
-    for _, docs in enumerate(m_docs):
-        for idx, doc in enumerate(docs):
-            if PRM.find_relevance(input[0], input[1], doc[idx]["text"]):
-                r_docs.append(doc)
-    if len(r_docs) > 0:
-        ref = ""
-        for idx, doc in enumerate(r_docs):
-            ref = ref + "\nPragraphs " + str(idx) + ":" + doc["text"]
-        ref = ref + "\nUse the knowledge from the relevant paragraphs, give the answer to the question."
-        answer = predict(args, input[0] + ref + input[1])
-        return answer
-    TDM.decompose()
+    # m_docs, m_scores = beam_retrieve(input, contriever, contriever_tokenizer, passage_id_map, index)
+    # r_docs = []
+    # for _, docs in enumerate(m_docs):
+    #     for idx, doc in enumerate(docs):
+    #         if PRM.find_relevance(input[0], input[1], doc[idx]["text"]):
+    #             r_docs.append(doc)
+    # if len(r_docs) > 0:
+    #     ref = ""
+    #     for idx, doc in enumerate(r_docs):
+    #         ref = ref + "\nPragraphs " + str(idx) + ":" + doc["text"]
+    #     ref = ref + "\nUse the knowledge from the relevant paragraphs, give the answer to the question."
+    #     answer = predict(args, input[0] + ref + input[1])
+    #     return answer
+    TDM.decompose(input[0], input[1])
     sub_qas = []
     for idx, sub_query in enumerate(TDM.query_list):
         sub_answer = problem_solving([input[0], sub_query], iter, SKM, PRM, TDM, contriever, contriever_tokenizer, base_model, tokenizer, passage_id_map, index)
@@ -167,13 +175,15 @@ def problem_solving(input, iter, SKM, PRM, TDM, contriever, contriever_tokenizer
         sub_str = sub_str + "\nsub_question " + idx + ": " + sub_qa[0]
         sub_str = sub_str + "\nsub_question " + idx + ": " + sub_qa[1]
     sub_str = sub_str + "\nBase on the sub-question answer. give the answer to the origin question."
-    answer = predict(args, input[0] + sub_str + input[1])
+    print('The question is',sub_str)
+    answer = predict(args, " ".join(input[0]) + sub_str + " ".join(input[1]),base_model,tokenizer)
     return answer
 
 def run_gpt(dataset, SKM, PRM, TDM, contriever, contriever_tokenizer, base_model, tokenizer, passage_id_map, index):
     answer_set = list()
     for idx, data in enumerate(dataset):
-        input = [data['context'], data['query']] 
+        print('The question asked is ',data)
+        input = [data['answer'], data['question']]
         ans = problem_solving(input, 0, SKM, PRM, TDM, contriever, contriever_tokenizer, base_model, tokenizer, passage_id_map, index)
         answer_set.append(ans)
     with open(args.output_path, 'a', encoding = "UTF-8") as f:

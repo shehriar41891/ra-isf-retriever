@@ -3,6 +3,7 @@ import logging
 import re
 import string
 
+import torch
 import os
 import argparse
 import csv
@@ -23,7 +24,8 @@ class Self_Knowledge_Model():
 
     def find_known(self, context, query):
         print('Here we start with SRM module')
-        inputs = self.tokenizer(context + query, return_tensors="pt").to('cuda')
+        device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
+        inputs = self.tokenizer(" ".join(context) + " " + query, return_tensors="pt").to(device)
         generate_ids = self.model.generate(**inputs, max_length=512, temperature=0)
         generate_ids = generate_ids[0][len(inputs["input_ids"][0]):-1]
         result = self.tokenizer.decode(generate_ids)
@@ -33,5 +35,5 @@ class Self_Knowledge_Model():
         elif result == "unknow":
             return False
         else:
-            print(f"Invalid output on SKM query: {context + query}")
+            print(f"Invalid output on SKM query: {inputs}")
             return False
