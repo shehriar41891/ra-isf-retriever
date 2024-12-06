@@ -1,67 +1,109 @@
-import requests
 import os
+import pprint
 from dotenv import load_dotenv
+from langchain_community.utilities import GoogleSerperAPIWrapper
+from crewai import Agent, Task, Crew, Process
+import os
+import litellm
+import sys
+sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
+from models.embedding_model import get_embedding_model
+from pinecone.grpc import PineconeGRPC as Pinecone
 
+
+# Enable verbose mode for LiteLLM
+litellm.set_verbose = True
+
+# Load environment variables
 load_dotenv()
+openai_api = os.getenv('OPENAI_API')
+pinecone_api_key = os.getenv('PINECONE_API_KEY')
+
+os.environ['OPENAI_API_KEY'] = openai_api
+os.environ['MODEL_NAME'] = 'gpt-3.5-turbo'
+
+# Configure LiteLLM with API key
+litellm.api_key = openai_api
+embedding_model = get_embedding_model()
 
 SERPER_API_KEY = os.getenv('SERPER_API_KEY')
 
-# Function to get job done using Serper API
-def get_search_results(query, api_key):
+os.environ["SERPER_API_KEY"] = SERPER_API_KEY
+
+def Googlesearch(query):
+    search = GoogleSerperAPIWrapper()
+    result = search.run(query)
+    
+    return result
+
+
+user_query = 'Who was the first president of Pakistan'
+results = Googlesearch(user_query)
+
+# Define the evaluator agent
+Evaluator = Agent(
+    role='Evaluation of the documents',
+    goal=(
+        """"Evaluate the given document: {text} based on the user query: {query} and only extract the 
+        relevant part from the document according to the {query}
+        """
+    ),
+    verbose=True,
+    memory=True,
+    backstory=(
+    """You are a document evaluator who is expert in extracting relevant information from 
+    the text based on the given query
     """
-    Function to send a query to Serper API and get search results.
+    ),
+    allow_delegation=True,
+)
 
-    Parameters:
-    - query (str): The search query to be sent to Serper API.
-    - api_key (str): The Serper API key for authentication.
+# Define the evaluation task
+Evaluation = Task(
+    description=(
+        """" Analyze the document: {text} based on the user query: {query} and take only relevant part 
+        from the document based on the query: {query}
+        """
+    ),
+    expected_output="small relevant document to the user query",
+    agent=Evaluator,
+    allow_delegation=True,
+)
 
-    Returns:
-    - dict: Parsed JSON response with search results.
-    """
-    # Define the base URL for Serper API
-    url = "https://api.serper.dev/search"
+# Create the crew
+crew = Crew(
+    agents=[Evaluator],
+    tasks=[Evaluation],
+    verbose=True,
+    process=Process.sequential,
+    debug=True,
+    max_iterations=2,
+)
 
-    # Headers for the API request (adding the API key in the headers)
-    headers = {
-        "Authorization": f"Bearer {api_key}"
+def filter_top(user_query, results):
+    result = crew.kickoff(inputs={'text': results, 'query': user_query})
+    return result
+
+
+#storing the result to pinecone
+pc = Pinecone(api_key=pinecone_api_key)
+index = pc.Index(host="upwork")
+
+def upsert_to_pinecone():
+    metadata = filter_top(user_query,results)
+    embeddings = embedding_model.get_embedding(metadata)
+
+    vector = [
+    {
+    'values' : embeddings,
+    'metadata': metadata
     }
-
-    # Parameters for the API request
-    params = {
-        "q": query,  # The query to search for
-    }
-
-    try:
-        # Send the GET request to the Serper API
-        response = requests.get(url, headers=headers, params=params)
-
-        # Check for successful request
-        if response.status_code == 200:
-            # Parse the JSON response
-            return response.json()
-        else:
-            # Handle errors if the status code is not 200 (OK)
-            return {"error": f"Error: {response.status_code}, Message: {response.text}"}
-    except requests.exceptions.RequestException as e:
-        # Handle network errors or other request exceptions
-        return {"error": f"Request failed: {str(e)}"}
-
-# Example usage
-if __name__ == "__main__":
-    # Your Serper API key
-    api_key = SERPER_API_KEY
-    print(api_key)
-    # The query you want to search for
-    query = "weather forecast in New York"
-
-    # Call the function to get search results
-    result = get_search_results(query, api_key)
-
-    # Print the result or handle it as needed
-    if "error" in result:
-        print(result["error"])
-    else:
-        # Example: Print first 5 search results (if available)
-        print("Top 5 search results:")
-        for i, item in enumerate(result.get("organic_results", [])[:5]):
-            print(f"{i + 1}. {item['title']}: {item['link']}")
+    ]
+    
+    index.upsert(
+        vector,
+        namespace='namespace6'
+    )
+    
+    
+    
