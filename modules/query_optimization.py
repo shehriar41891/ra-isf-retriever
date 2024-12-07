@@ -54,16 +54,16 @@ crew = Crew(
     max_iterations=2
 )
 
-def get_result(user_query):
+def optimize_query(user_query):
     result = crew.kickoff(inputs={'query' : user_query})
     return result 
 
-query = """"
-        Can you kindly tell me, in the most clear and detailed manner, what the weather forecast will be 
-        like for tomorrow in the city of New York, including any possible chances of rain, snow, or 
-        other weather events, and maybe even details like the temperature in both Fahrenheit and 
-        Celsius, and wind speed, and if it will be a sunny or cloudy day, or if there are any other
-        details that could be relevant for someone planning to go outside tomorrow?
-    """
+# query = """"
+#         Can you kindly tell me, in the most clear and detailed manner, what the weather forecast will be 
+#         like for tomorrow in the city of New York, including any possible chances of rain, snow, or 
+#         other weather events, and maybe even details like the temperature in both Fahrenheit and 
+#         Celsius, and wind speed, and if it will be a sunny or cloudy day, or if there are any other
+#         details that could be relevant for someone planning to go outside tomorrow?
+#     """
 
-print(get_result(query))
+# print(optimize_query(query))

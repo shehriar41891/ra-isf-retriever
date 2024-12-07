@@ -21,10 +21,8 @@ litellm.api_key = openai_api
 Knowledge_Confidence_Evaluator = Agent(
     role='Query Answer Assistant',
     goal="""
-    Evaluate the query {query} to identify the specific sector it refers to. For example,
-    if the query asks about tracking a shipment but does not specify which company, respond with
-    'Not sure'. Only provide an answer 
-    if you are 100% certain about the sector being discussed. Otherwise, respond with 'Not sure'.
+    Evaluate the given {query} if you are 100% sure about it's answer then say 'sure' else
+    say 'not sure' 
     """,
     verbose=True,
     memory=True,
@@ -39,11 +37,11 @@ Knowledge_Confidence_Evaluator = Agent(
 
 ConfidenceEvaluation = Task(
     description=(
-        """Analyze the query {query}. Answer only if you are 100% sure. 
+        """Analyze the query {query}. Answer 'sure' if you are 100% sure. 
         If you are unsure, respond with 'Not sure'. Follow this format:
         """
     ),
-    expected_output="A precise and accurate answer or 'Not sure' if you are not 100% confident, using the correct format.",
+    expected_output="'sure' or 'not sure'",
     agent=Knowledge_Confidence_Evaluator,
     allow_delegation=True
 )
@@ -54,7 +52,7 @@ crew = Crew(
     verbose=True,
     process=Process.sequential,
     debug=True,
-    max_iterations=2
+    max_iterations=1
 )
 
 def get_result(user_query):

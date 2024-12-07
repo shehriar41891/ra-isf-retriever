@@ -147,4 +147,6 @@ texts_with_scores = [
 ]
 # print(len(texts_with_scores))
 
-# print(filter_top3(user_query,texts_with_scores))
+# results = filter_top3(user_query,texts_with_scores)
+# results = str(results)
+# print(results)
