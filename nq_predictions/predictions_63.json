@@ -1,0 +1,502 @@
+[
+    {
+        "query": "where is the second amendment located in the constitution",
+        "target": "Bill of Rights",
+        "predicted": "Second Amendment"
+    },
+    {
+        "query": "when did the soviet union explode its first atomic bomb",
+        "target": "29 August 1949",
+        "predicted": "29 August 1949"
+    },
+    {
+        "query": "when did water fluoridation begin in the uk",
+        "target": "1964",
+        "predicted": "1945"
+    },
+    {
+        "query": "who were the first british settlers in america",
+        "target": "the London Company",
+        "predicted": "Jamestown"
+    },
+    {
+        "query": "what is the name of a young chicken",
+        "target": "chicks",
+        "predicted": "Chick."
+    },
+    {
+        "query": "who was the original owner of the new yorker hotel",
+        "target": "Garment Center developer Mack Kanner",
+        "predicted": "Mack Kanner"
+    },
+    {
+        "query": "when did the montreal expos become the washington nationals",
+        "target": "2005",
+        "predicted": "2005"
+    },
+    {
+        "query": "how many judges are on the california supreme court",
+        "target": "7",
+        "predicted": "Seven"
+    },
+    {
+        "query": "the doctrine holding that separate-but-equal facilities do not violate the equal protection clause",
+        "target": "Separate but equal",
+        "predicted": "\"separate but equal\""
+    },
+    {
+        "query": "who played tyree in she wore a yellow ribbon",
+        "target": "Ben Johnson",
+        "predicted": "Ben Johnson"
+    },
+    {
+        "query": "who chooses where the superbowl will be played",
+        "target": "NFL owners",
+        "predicted": "NFL owners"
+    },
+    {
+        "query": "what happened to virginia city after comstock discovered silver ore in six mile canyon",
+        "target": "bustling commercial centers",
+        "predicted": "Virginia City became a booming mining town."
+    },
+    {
+        "query": "when was the last time the panthers went to the super bowl",
+        "target": "2015",
+        "predicted": "2015"
+    },
+    {
+        "query": "who was the girl that disappeared in aruba",
+        "target": "Natalee Ann Holloway",
+        "predicted": "Natalee Ann Holloway"
+    },
+    {
+        "query": "where is the university of central florida coach going",
+        "target": "University of Nebraska",
+        "predicted": "offensive coordinator at Florida State"
+    },
+    {
+        "query": "where are the group of cells that control the natural resting heart rate found",
+        "target": "sinoatrial node",
+        "predicted": "Sinoatrial node"
+    },
+    {
+        "query": "who coined the phrase war to end all wars",
+        "target": "H. G. Wells",
+        "predicted": "H. G. Wells"
+    },
+    {
+        "query": "who is the toymaker in chitty chitty bang bang",
+        "target": "Benny Hill",
+        "predicted": "Caractacus Potts"
+    },
+    {
+        "query": "who extolled the equality of conditions in his book democracy in america",
+        "target": "Alexis de Tocqueville",
+        "predicted": "Alexis de Tocqueville"
+    },
+    {
+        "query": "what is a typical value of k for an operating fission power plant",
+        "target": "1",
+        "predicted": "k"
+    },
+    {
+        "query": "who won best actor academy award in 1969",
+        "target": "Cliff Robertson",
+        "predicted": "John Wayne"
+    },
+    {
+        "query": "where are the 2024 olympics going to be",
+        "target": "Paris, France",
+        "predicted": "Paris"
+    },
+    {
+        "query": "how many academy awards did la la land win",
+        "target": "six",
+        "predicted": "6"
+    },
+    {
+        "query": "when was the last time kansas university won the ncaa tournament",
+        "target": "2008",
+        "predicted": "2008"
+    },
+    {
+        "query": "who played danny in where the heart is",
+        "target": "Richard Mylan",
+        "predicted": "Jonathan Taylor Thomas"
+    },
+    {
+        "query": "where was i am not a serial killer filmed",
+        "target": "Virginia, Minnesota",
+        "predicted": "Ireland"
+    },
+    {
+        "query": "when is season 3 of daredevil being released",
+        "target": "2018",
+        "predicted": "October 19, 2018"
+    },
+    {
+        "query": "what would give a positive result with the benedicts test",
+        "target": "the presence of reducing sugars",
+        "predicted": "Reducing sugars"
+    },
+    {
+        "query": "orlando bloom character in lord of the rings",
+        "target": "Legolas",
+        "predicted": "Legolas"
+    },
+    {
+        "query": "who won the album of the year 2018",
+        "target": "24K Magic",
+        "predicted": "Bruno Mars"
+    },
+    {
+        "query": "what is the biggest university campus in the us",
+        "target": "University of Central Florida",
+        "predicted": "Berry College"
+    },
+    {
+        "query": "how many episodes is there in game of thrones series 7",
+        "target": "seven",
+        "predicted": "7 episodes"
+    },
+    {
+        "query": "when was smoking in pubs banned in uk",
+        "target": "1 July 2007",
+        "predicted": "1 July 2007"
+    },
+    {
+        "query": "who was the supreme court justice who was impeached",
+        "target": "Samuel Chase",
+        "predicted": "Samuel Chase"
+    },
+    {
+        "query": "who is the backup leader of the senate",
+        "target": "President pro tempore",
+        "predicted": "John Thune"
+    },
+    {
+        "query": "when was the time when writ of habeas corpus suspended",
+        "target": "March 3, 1863",
+        "predicted": "American Civil War"
+    },
+    {
+        "query": "who sings it's too late to apologize",
+        "target": "Ryan Tedder",
+        "predicted": "OneRepublic"
+    },
+    {
+        "query": "what does echame le culpa mean in english",
+        "target": "Put the Blame on Me",
+        "predicted": "\"blame me\""
+    },
+    {
+        "query": "when does ghost in the shell arise take place",
+        "target": "the year 2027",
+        "predicted": "2027"
+    },
+    {
+        "query": "where does the royal family live in denmark",
+        "target": "Graasten Palace",
+        "predicted": "Amalienborg"
+    },
+    {
+        "query": "of the four galilean moons which is the closest to jupiter",
+        "target": "Io",
+        "predicted": "Io"
+    },
+    {
+        "query": "when was the first refrigerator invented and by whom",
+        "target": "James Harrison",
+        "predicted": "1805, Jacob Perkins"
+    },
+    {
+        "query": "when did shakespeare write the merchant of venice",
+        "target": "1596 and 1599",
+        "predicted": "1596-1598"
+    },
+    {
+        "query": "when was corporal punishment banned in south african schools",
+        "target": "1996",
+        "predicted": "1996"
+    },
+    {
+        "query": "where are the olympics being held in 2020",
+        "target": "Tokyo",
+        "predicted": "Tokyo"
+    },
+    {
+        "query": "when was the last star trek movie released",
+        "target": "July 22, 2016",
+        "predicted": "2016"
+    },
+    {
+        "query": "which mughal emperor shifted capital from agra to delhi",
+        "target": "Shah Jahan",
+        "predicted": "Shah Jahan"
+    },
+    {
+        "query": "when does lexie grey join grey's anatomy",
+        "target": "season three",
+        "predicted": "Season 3"
+    },
+    {
+        "query": "when was the last time the volcano erupted in tenerife",
+        "target": "1909",
+        "predicted": "18 November 1909"
+    },
+    {
+        "query": "who sings i am your lady and you are my man",
+        "target": "Jennifer Rush",
+        "predicted": "Lionel Richie and Diana Ross"
+    },
+    {
+        "query": "which record type on a dns server represents an ipv6 host",
+        "target": "AAAA",
+        "predicted": "AAAA"
+    },
+    {
+        "query": "who won season 1 the great british baking show",
+        "target": "Edd Kimber",
+        "predicted": "Edd Kimber"
+    },
+    {
+        "query": "where are the next summer olympics being played",
+        "target": "Tokyo, Japan",
+        "predicted": "Tokyo"
+    },
+    {
+        "query": "what is the name of the airport in antigua",
+        "target": "V. C. Bird International Airport",
+        "predicted": "V.C. Bird International Airport"
+    },
+    {
+        "query": "how many seasons of jersy shore are there",
+        "target": "6",
+        "predicted": "6"
+    },
+    {
+        "query": "where does the land before time take place",
+        "target": "the Great Valley",
+        "predicted": "the Great Valley"
+    },
+    {
+        "query": "when did delhi become the capital of british india",
+        "target": "1911",
+        "predicted": "1911"
+    },
+    {
+        "query": "what part of new york is rochester in",
+        "target": "western New York",
+        "predicted": "Western New York"
+    },
+    {
+        "query": "who won 2 world series in the 80s",
+        "target": "Los Angeles Dodgers",
+        "predicted": "Los Angeles Dodgers"
+    },
+    {
+        "query": "who is the prime minister of ivory coast",
+        "target": "Amadou Gon Coulibaly",
+        "predicted": "Patrick Achi"
+    },
+    {
+        "query": "when was the republic of south africa established",
+        "target": "31 May 1961",
+        "predicted": "31 May 1961"
+    },
+    {
+        "query": "costa rica is located between which two countries",
+        "target": "Panama",
+        "predicted": "Nicaragua and Panama"
+    },
+    {
+        "query": "when was the last time cleveland browns made playoffs",
+        "target": "2002",
+        "predicted": "2002"
+    },
+    {
+        "query": "where was the movie woody wood pecker filmed",
+        "target": "Canada",
+        "predicted": "Pinewood Studios"
+    },
+    {
+        "query": "who plays cindy sanders in freaks and geeks",
+        "target": "Natasha Melnick",
+        "predicted": "Natasha Melnick"
+    },
+    {
+        "query": "who plays hyde on once upon a time",
+        "target": "Samuel Stewart Witwer",
+        "predicted": "Sam Witwer"
+    },
+    {
+        "query": "who killed king joffery in game of thrones",
+        "target": "Lady Olenna Tyrell",
+        "predicted": "Olenna Tyrell"
+    },
+    {
+        "query": "where does the count of monte cristo live",
+        "target": "Paris",
+        "predicted": "Frioul archipelago, Marseille, France"
+    },
+    {
+        "query": "where does discovery fit in star trek timeline",
+        "target": "2254",
+        "predicted": "10 years before The Original Series"
+    },
+    {
+        "query": "what was the filipino native elite class of the 1800s called",
+        "target": "Ilustrados",
+        "predicted": "Ilustrados"
+    },
+    {
+        "query": "what was the purpose of the second great awakening",
+        "target": "reflected Romanticism",
+        "predicted": "religious revival and social reform"
+    },
+    {
+        "query": "when did plywood start being used in furniture",
+        "target": "the 1850s",
+        "predicted": "1860s"
+    },
+    {
+        "query": "who plays the female lead in ready player one",
+        "target": "Olivia Cooke",
+        "predicted": "Olivia Cooke"
+    },
+    {
+        "query": "who played bane in the dark knight rises",
+        "target": "Tom Hardy",
+        "predicted": "Tom Hardy"
+    },
+    {
+        "query": "who killed the girl in mystic river movie",
+        "target": "his friend John O'Shea",
+        "predicted": "Dave Boyle"
+    },
+    {
+        "query": "who plays the snow queen in once upon a time",
+        "target": "Elizabeth Mitchell",
+        "predicted": "Elizabeth Mitchell"
+    },
+    {
+        "query": "what is the name of the first movie falz acted",
+        "target": "Jenifa's Diary",
+        "predicted": "Saworoide"
+    },
+    {
+        "query": "who was the winner of rupaul drag race season 5",
+        "target": "Jinkx Monsoon",
+        "predicted": "Jinkx Monsoon"
+    },
+    {
+        "query": "where in the bible is the story of the birth of jesus",
+        "target": "Luke",
+        "predicted": "Matthew 1-2; Luke 1-2"
+    },
+    {
+        "query": "when is fire and fury to be released",
+        "target": "January 5, 2018",
+        "predicted": "2018"
+    },
+    {
+        "query": "when were horses first introduced to north america",
+        "target": "the 16th century",
+        "predicted": "1492"
+    },
+    {
+        "query": "who plays the first nfl game this year",
+        "target": "Kansas City Chiefs",
+        "predicted": "Kansas City Chiefs"
+    },
+    {
+        "query": "what is the current season of selling houses australia",
+        "target": "11",
+        "predicted": "Season 12"
+    },
+    {
+        "query": "who is top goalscorer in the world cup",
+        "target": "Miroslav Klose",
+        "predicted": "Miroslav Klose"
+    },
+    {
+        "query": "who played alfalfa in the original little rascals",
+        "target": "Carl Dean Switzer",
+        "predicted": "Carl \"Alfalfa\" Switzer"
+    },
+    {
+        "query": "what year did the movie the toy come out",
+        "target": "1982",
+        "predicted": "1982"
+    },
+    {
+        "query": "who win the sa re ga ma pa season 13",
+        "target": "Sanchita Bhattacharya",
+        "predicted": "Unknown"
+    },
+    {
+        "query": "who voices the hormone monster on big mouth",
+        "target": "Nick Kroll",
+        "predicted": "Nick Kroll"
+    },
+    {
+        "query": "who played kato in the green hornet tv series",
+        "target": "Bruce Lee",
+        "predicted": "Bruce Lee"
+    },
+    {
+        "query": "the story of bonnie and clyde movie cast",
+        "target": "Gene Wilder as Eugene Grizzard",
+        "predicted": "Warren Beatty and Faye Dunaway, Kevin Costner, Woody Harrelson, Kathy Bates"
+    },
+    {
+        "query": "what nqf level is a diploma in south africa",
+        "target": "6",
+        "predicted": "Level 6"
+    },
+    {
+        "query": "number of pages in the old man and the sea",
+        "target": "127",
+        "predicted": "128"
+    },
+    {
+        "query": "who discover the occurrence of oil in assam",
+        "target": "Italian Engineers",
+        "predicted": "Margherita"
+    },
+    {
+        "query": "who sings the theme song for casino royale",
+        "target": "Chris Cornell",
+        "predicted": "Chris Cornell"
+    },
+    {
+        "query": "what has to be present in biomes to make them similar",
+        "target": "characteristics of their animal communities",
+        "predicted": "types of vegetation, soil, climate, and wildlife"
+    },
+    {
+        "query": "refers to the degree to which two measures of the same construct correlate to each other",
+        "target": "Concurrent validity",
+        "predicted": "Convergent validity"
+    },
+    {
+        "query": "world cup football held in asia for the first time in",
+        "target": "2002",
+        "predicted": "2002"
+    },
+    {
+        "query": "how much did it cost to make the movie ready player one",
+        "target": "$175 million",
+        "predicted": "$155\u2013175 million"
+    },
+    {
+        "query": "who walked across the bering strait to the americas",
+        "target": "Paleo-Indians",
+        "predicted": "Paleoindians"
+    },
+    {
+        "query": "keith sweat make it last forever release date",
+        "target": "November 24, 1987",
+        "predicted": "1994"
+    }
+]

@@ -1,0 +1,502 @@
+[
+    {
+        "query": "how many episodes are in the last season of girlfriends guide to divorce",
+        "target": "6",
+        "predicted": "6"
+    },
+    {
+        "query": "where is guinea ecuatorial located on the map",
+        "target": "in Central Africa",
+        "predicted": "Central Africa"
+    },
+    {
+        "query": "who is the governor of adamawa state now",
+        "target": "Bindo Jibrilla",
+        "predicted": "Ahmadu Umaru Fintiri"
+    },
+    {
+        "query": "who is the highest paid athlete in the world currently",
+        "target": "Cristiano Ronaldo",
+        "predicted": "Cristiano Ronaldo"
+    },
+    {
+        "query": "who plays the voice of mabel on gravity falls",
+        "target": "Kristen Joy Schaal",
+        "predicted": "Kristen Schaal"
+    },
+    {
+        "query": "when did jennifer lawrence start her acting career",
+        "target": "2006",
+        "predicted": "2006"
+    },
+    {
+        "query": "when was the inscription placed on the statue of liberty",
+        "target": "1903",
+        "predicted": "1903"
+    },
+    {
+        "query": "who leads the nba in blocks all time",
+        "target": "Olajuwon, Hakeem",
+        "predicted": "Hakeem Olajuwon"
+    },
+    {
+        "query": "who has won the most college football championships",
+        "target": "Princeton",
+        "predicted": "Yale University"
+    },
+    {
+        "query": "who did dolly parton wrote i will always love you for",
+        "target": "1973",
+        "predicted": "Porter Wagoner"
+    },
+    {
+        "query": "who plays bad guy in guardians of the galaxy",
+        "target": "Lee Pace",
+        "predicted": "Ronan the Accuser"
+    },
+    {
+        "query": "where were cane toads first released in australia",
+        "target": "Gordonvale",
+        "predicted": "Queensland"
+    },
+    {
+        "query": "when did dustin johnson win the us open",
+        "target": "2016",
+        "predicted": "2016"
+    },
+    {
+        "query": "who sings thank god i'm a country boy",
+        "target": "John Martin Sommers",
+        "predicted": "John Denver"
+    },
+    {
+        "query": "when did i can't drive 55 come out",
+        "target": "1984",
+        "predicted": "1984"
+    },
+    {
+        "query": "who sings don't it make my brown eyes blue",
+        "target": "Crystal Gayle",
+        "predicted": "Crystal Gayle"
+    },
+    {
+        "query": "who plays ian banks on one tree hill",
+        "target": "Matthew Jerome Barr",
+        "predicted": "Matt Barr"
+    },
+    {
+        "query": "who sings let it go in frozen credits",
+        "target": "Demi Lovato",
+        "predicted": "Idina Menzel"
+    },
+    {
+        "query": "what is the general name given to molecules detected by benedict's reagent",
+        "target": "reducing sugars",
+        "predicted": "Reducing sugars"
+    },
+    {
+        "query": "when was chlorine gas first used in ww1",
+        "target": "before 2 January 1915",
+        "predicted": "1915"
+    },
+    {
+        "query": "if you are from dubai what are you called",
+        "target": "Emirati",
+        "predicted": "Dubaian"
+    },
+    {
+        "query": "what is the name of thor's hammer in the movie",
+        "target": "Mjolnir",
+        "predicted": "Mjolnir"
+    },
+    {
+        "query": "what percent of the senate is needed to confirm a supreme court justice",
+        "target": "majority",
+        "predicted": "A simple majority"
+    },
+    {
+        "query": "when does 13 readons why season 2 start",
+        "target": "May 18, 2018",
+        "predicted": "May 18, 2018"
+    },
+    {
+        "query": "who plays the librarian on lemony snicket's a series of unfortunate events",
+        "target": "Sara Rue",
+        "predicted": "Judy Greer"
+    },
+    {
+        "query": "when did the first rocket launched into space",
+        "target": "1944",
+        "predicted": "1944"
+    },
+    {
+        "query": "how many citizenships can you have in switzerland",
+        "target": "no restriction on multiple citizenship",
+        "predicted": "multiple citizenship"
+    },
+    {
+        "query": "when did nhl start 3 on 3 overtime",
+        "target": "2015\u201316 NHL season",
+        "predicted": "2015"
+    },
+    {
+        "query": "when does the newest planet of the apes come out",
+        "target": "July 14, 2017",
+        "predicted": "May"
+    },
+    {
+        "query": "when did love song by rihanna come out",
+        "target": "April 3, 2013",
+        "predicted": "2009"
+    },
+    {
+        "query": "how many tribes are there in the philippines",
+        "target": "more than 175 ethnolinguistic nations",
+        "predicted": "110 ethno-linguistic groups"
+    },
+    {
+        "query": "when did nebraska became a right to work state",
+        "target": "1946",
+        "predicted": "1946"
+    },
+    {
+        "query": "consulate general of the federal republic of germany bangalore",
+        "target": "Margit Hellwig-B\u00f6tte",
+        "predicted": "Consulate General of the Federal Republic of Germany, Bangalore"
+    },
+    {
+        "query": "who played darth maul in star wars episode 1",
+        "target": "Peter Serafinowicz",
+        "predicted": "Ray Park"
+    },
+    {
+        "query": "who wrote the theme song for miami vice",
+        "target": "Jan Hammer",
+        "predicted": "Jan Hammer"
+    },
+    {
+        "query": "who played jonathan in arsenic and old lace",
+        "target": "Raymond Massey",
+        "predicted": "Raymond Massey"
+    },
+    {
+        "query": "how many teams make the division 3 football playoffs",
+        "target": "32",
+        "predicted": "32"
+    },
+    {
+        "query": "when did the ford f150 raptor come out",
+        "target": "For 2010",
+        "predicted": "2010"
+    },
+    {
+        "query": "who played elle woods after laura bell bundy",
+        "target": "Bailey Hanks",
+        "predicted": "Lucie Jones"
+    },
+    {
+        "query": "when is the 6th season of once upon a time coming out",
+        "target": "September 25, 2016",
+        "predicted": "September 25, 2016"
+    },
+    {
+        "query": "who won the espy for best male athlete",
+        "target": "Alexander Ovechkin",
+        "predicted": "Giannis Antetokounmpo"
+    },
+    {
+        "query": "who was stuck in the moment written for",
+        "target": "Michael Hutchence",
+        "predicted": "Michael Hutchence"
+    },
+    {
+        "query": "where does the phrase whole ball of wax come from",
+        "target": "Kentucky and South Carolina",
+        "predicted": "humorous modification of whole bailiwick"
+    },
+    {
+        "query": "when did the monorail open at disney world",
+        "target": "October 1, 1971",
+        "predicted": "1971"
+    },
+    {
+        "query": "where did the stories of the greek gods come from",
+        "target": "the ancient Greeks",
+        "predicted": "stories told in the Minoan civilization of Crete"
+    },
+    {
+        "query": "who played nigel in never say never again",
+        "target": "Rowan Atkinson",
+        "predicted": "Max von Sydow"
+    },
+    {
+        "query": "when did the 4 minute mile get broken",
+        "target": "6 May 1954",
+        "predicted": "1954"
+    },
+    {
+        "query": "who is the most successful club in spain",
+        "target": "Real Madrid",
+        "predicted": "Real Madrid"
+    },
+    {
+        "query": "who voices kevin in welcome to night vale",
+        "target": "Kevin R. Free",
+        "predicted": "Kevin R. Free"
+    },
+    {
+        "query": "what is the second largest island in greece",
+        "target": "Euboea",
+        "predicted": "Evia"
+    },
+    {
+        "query": "who plays addison montgomery on grey's anatomy",
+        "target": "Kathleen Erin Walsh",
+        "predicted": "Kate Walsh"
+    },
+    {
+        "query": "when were the eagles inducted into the rock and roll hall of fame",
+        "target": "1998",
+        "predicted": "1998"
+    },
+    {
+        "query": "who was the first treasurer of the united states",
+        "target": "Michael Hillegas",
+        "predicted": "Alexander Hamilton"
+    },
+    {
+        "query": "whats the lower part of your stomach called",
+        "target": "pylorus",
+        "predicted": "Abdomen"
+    },
+    {
+        "query": "who sings the song it's a family affair",
+        "target": "Sly and the Family Stone",
+        "predicted": "Sly and the Family Stone"
+    },
+    {
+        "query": "who's playing in the hall of fame game",
+        "target": "Chicago Bears",
+        "predicted": "Texans and Bears"
+    },
+    {
+        "query": "who plays the snake in the jungle book movie",
+        "target": "Scarlett Johansson",
+        "predicted": "Scarlett Johansson"
+    },
+    {
+        "query": "how many cards do you get in shanghai",
+        "target": "eleven",
+        "predicted": "11 cards"
+    },
+    {
+        "query": "what does ccf stand for in the air force",
+        "target": "First Sergeant",
+        "predicted": "Custody and Control Form"
+    },
+    {
+        "query": "who plays peter florrick in the good wife",
+        "target": "Christopher David Noth",
+        "predicted": "Chris Noth"
+    },
+    {
+        "query": "who's the announcer on the price is right",
+        "target": "George Gray",
+        "predicted": "George Gray"
+    },
+    {
+        "query": "who did the dodgers get for pedro martinez",
+        "target": "Delino DeShields",
+        "predicted": "Delino DeShields"
+    },
+    {
+        "query": "who is the author of weaving the web",
+        "target": "Tim Berners-Lee",
+        "predicted": "Tim Berners-Lee"
+    },
+    {
+        "query": "who has the most assists in la liga",
+        "target": "Lionel Messi",
+        "predicted": "Lionel Messi"
+    },
+    {
+        "query": "who sings with charlie puth in done for me",
+        "target": "Kehlani",
+        "predicted": "Lil' Wayne"
+    },
+    {
+        "query": "what reactions are performed by hydrolytic enzymes in the lysosome",
+        "target": "autophagy",
+        "predicted": "Digestion of macromolecules"
+    },
+    {
+        "query": "when did the original xbox 360 come out",
+        "target": "November 22, 2005",
+        "predicted": "November 22, 2005"
+    },
+    {
+        "query": "where does their eyes were watching god take place",
+        "target": "central and southern Florida",
+        "predicted": "Eatonville, Florida"
+    },
+    {
+        "query": "where does the arlanda express stop in stockholm",
+        "target": "Stockholm Central Station",
+        "predicted": "Stockholm Central Station, Terminals 2, 3 and 4, Terminal 5"
+    },
+    {
+        "query": "who plays chief of surgery in the resident",
+        "target": "Bruce Greenwood",
+        "predicted": "Bruce Greenwood"
+    },
+    {
+        "query": "what is the name of the skin between your fingers",
+        "target": "skin folds",
+        "predicted": "webbing"
+    },
+    {
+        "query": "who has the most grammy nominations as an artist",
+        "target": "Quincy Jones",
+        "predicted": "Beyonc\u00e9"
+    },
+    {
+        "query": "who sings i'm way too good for goodbyes",
+        "target": "Sam Smith",
+        "predicted": "JoJo"
+    },
+    {
+        "query": "who sang sha na na na live for today",
+        "target": "The Grass Roots",
+        "predicted": "The Grass Roots"
+    },
+    {
+        "query": "how many episodes in kickin it season 4",
+        "target": "18",
+        "predicted": "21 episodes"
+    },
+    {
+        "query": "who sings it don't matter to me",
+        "target": "Bread",
+        "predicted": "Robert Glasper \u00b7 Gregory Porter \u00b7 Ledisi"
+    },
+    {
+        "query": "when did black boxes get installed in planes",
+        "target": "by March 1, 1967",
+        "predicted": "1958"
+    },
+    {
+        "query": "who plays charlie in kinky boots on broadway",
+        "target": "Stark Sands",
+        "predicted": "Andy Kelso"
+    },
+    {
+        "query": "what episode will the chimera ant arc end",
+        "target": "136",
+        "predicted": "anime episode 148"
+    },
+    {
+        "query": "when does episode 11 of miraculous ladybug come out",
+        "target": "21 February 2016",
+        "predicted": "May 15, 2019"
+    },
+    {
+        "query": "an example of a type iii hypersensitivity is",
+        "target": "vasculitis",
+        "predicted": "Arthus reaction"
+    },
+    {
+        "query": "who owns mgm resorts international in las vegas",
+        "target": "T. Rowe Price",
+        "predicted": "VICI Properties"
+    },
+    {
+        "query": "where does the last name oliver originate from",
+        "target": "French Norman",
+        "predicted": "Latin"
+    },
+    {
+        "query": "when was the last time browns made playoffs",
+        "target": "2002 AFC Wild Card Playoffs",
+        "predicted": "2002"
+    },
+    {
+        "query": "what is the frequency of ac current in north america",
+        "target": "60\u00a0Hz",
+        "predicted": "60 Hz"
+    },
+    {
+        "query": "minimum age for becoming prime minister of india",
+        "target": "25",
+        "predicted": "25 years"
+    },
+    {
+        "query": "who wrote the lyrics for the song my way",
+        "target": "Paul Anka",
+        "predicted": "Paul Anka"
+    },
+    {
+        "query": "which team has won the uefa champions league the most times",
+        "target": "Spanish side Real Madrid",
+        "predicted": "Real Madrid"
+    },
+    {
+        "query": "who has written the most number one songs of all time",
+        "target": "Paul McCartney",
+        "predicted": "John Lennon"
+    },
+    {
+        "query": "who holds record for most 3 pointers in a game",
+        "target": "Stephen Curry",
+        "predicted": "Klay Thompson"
+    },
+    {
+        "query": "who plays riggs on lethal weapon the tv show",
+        "target": "Clayne Crawford",
+        "predicted": "Clayne Crawford"
+    },
+    {
+        "query": "where did the moors who invaded spain come from",
+        "target": "North Africa",
+        "predicted": "North Africa"
+    },
+    {
+        "query": "when does the new got book come out",
+        "target": "2018 or later",
+        "predicted": "2024"
+    },
+    {
+        "query": "how many hat tricks has messi scored in the champions league",
+        "target": "7",
+        "predicted": "11"
+    },
+    {
+        "query": "when is el dia de la raza celebrated",
+        "target": "October 12, 1492",
+        "predicted": "October 12"
+    },
+    {
+        "query": "who is the lead singer of all american rejects married to",
+        "target": "actress Elena Satine",
+        "predicted": "Elena Satine"
+    },
+    {
+        "query": "how long was the cosby show on the air",
+        "target": "eight seasons",
+        "predicted": "8 years"
+    },
+    {
+        "query": "who won the best actress oscar this year",
+        "target": "Frances McDormand",
+        "predicted": "Jessica Chastain"
+    },
+    {
+        "query": "how many episodes of gossip girl is there",
+        "target": "121",
+        "predicted": "121"
+    },
+    {
+        "query": "who sang the theme song for the tv show 'rawhide'",
+        "target": "Frankie Laine",
+        "predicted": "Frankie Laine"
+    }
+]

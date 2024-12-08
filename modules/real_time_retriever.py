@@ -9,6 +9,7 @@ import sys
 sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
 from models.embedding_model import get_embedding_model
 from pinecone.grpc import PineconeGRPC as Pinecone
+import wikipediaapi
 
 
 # Enable verbose mode for LiteLLM
@@ -32,13 +33,11 @@ os.environ["SERPER_API_KEY"] = SERPER_API_KEY
 
 def Googlesearch(query):
     search = GoogleSerperAPIWrapper()
-    result = search.run(query)
+    result = search.run(query+'answer in context of before 2019')
     
     return result
 
 
-user_query = 'Who was the first president of Pakistan'
-results = Googlesearch(user_query)
 
 # Define the evaluator agent
 Evaluator = Agent(
@@ -85,25 +84,25 @@ def filter_top(user_query, results):
     return result
 
 
-#storing the result to pinecone
-pc = Pinecone(api_key=pinecone_api_key)
-index = pc.Index(host="upwork")
+# #storing the result to pinecone
+# pc = Pinecone(api_key=pinecone_api_key)
+# index = pc.Index(host="upwork")
 
-def upsert_to_pinecone():
-    metadata = filter_top(user_query,results)
-    embeddings = embedding_model.get_embedding(metadata)
+# def upsert_to_pinecone():
+#     metadata = filter_top(user_query,results)
+#     embeddings = embedding_model.get_embedding(metadata)
 
-    vector = [
-    {
-    'values' : embeddings,
-    'metadata': metadata
-    }
-    ]
+#     vector = [
+#     {
+#     'values' : embeddings,
+#     'metadata': metadata
+#     }
+#     ]
     
-    index.upsert(
-        vector,
-        namespace='namespace6'
-    )
+#     index.upsert(
+#         vector,
+#         namespace='namespace6'
+#     )
     
     
     

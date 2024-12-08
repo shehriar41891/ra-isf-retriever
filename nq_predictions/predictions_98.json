@@ -1,0 +1,502 @@
+[
+    {
+        "query": "who ordered the blockade of southern ports during the civil war",
+        "target": "President Abraham Lincoln",
+        "predicted": "Ulysses S. Grant"
+    },
+    {
+        "query": "the novel the white tiger which won the man booker prize 2008 is authored by",
+        "target": "Aravind Adiga",
+        "predicted": "Aravind Adiga"
+    },
+    {
+        "query": "when did the bustle go out of style",
+        "target": "completely disappeared by 1905",
+        "predicted": "1910s"
+    },
+    {
+        "query": "when was the forst harry potter book published",
+        "target": "1997",
+        "predicted": "26 June 1997"
+    },
+    {
+        "query": "who has the most undefeated record in boxing",
+        "target": "Jimmy Barry",
+        "predicted": "Jimmy Wilde - 94 Consecutive Matches Undefeated"
+    },
+    {
+        "query": "what size engine does a subaru brz have",
+        "target": "2.0-litre",
+        "predicted": "2.0L flat-four engine"
+    },
+    {
+        "query": "who is responsible for choosing shows for the theatre",
+        "target": "theatre director",
+        "predicted": "Artistic director"
+    },
+    {
+        "query": "when do the arrow and the flash crossover",
+        "target": "December 2, 2014",
+        "predicted": "\"Flash vs. Arrow\""
+    },
+    {
+        "query": "obesity is defined as having a bmi greater than or equal to",
+        "target": "30.0",
+        "predicted": "30"
+    },
+    {
+        "query": "who played the robot girl in small wonder",
+        "target": "(Tiffany Brissette",
+        "predicted": "Tiffany Brissette"
+    },
+    {
+        "query": "who was awarded nobel prize both for physics and for chemistry",
+        "target": "Maria Sk\u0142odowska-Curie",
+        "predicted": "Marie Curie"
+    },
+    {
+        "query": "name the group of seven stars seen in the sky",
+        "target": "Pleiades",
+        "predicted": "Big Dipper"
+    },
+    {
+        "query": "who sings you're not the one for me",
+        "target": "American singer Sky Ferreira",
+        "predicted": "Tamer Hassan"
+    },
+    {
+        "query": "where is a function's return type specified",
+        "target": "in its method declaration",
+        "predicted": "before the function's name"
+    },
+    {
+        "query": "what is the number of players on a nfl team",
+        "target": "eleven players",
+        "predicted": "53"
+    },
+    {
+        "query": "who wrote the songs for the nightmare before christmas",
+        "target": "Danny Elfman",
+        "predicted": "Danny Elfman"
+    },
+    {
+        "query": "who was the angel of death in touched by an angel",
+        "target": "Andrew (John Dye)",
+        "predicted": "Azrael"
+    },
+    {
+        "query": "who was involved in the soviet invasion of afghanistan",
+        "target": "Soviet Army",
+        "predicted": "Soviet Union"
+    },
+    {
+        "query": "where was the movie yours mine and ours filmed",
+        "target": "1967",
+        "predicted": "California"
+    },
+    {
+        "query": "the continental slope is cut by submarine canyons thought to be formed by",
+        "target": "erosion by turbidity current erosion",
+        "predicted": "rivers during the ice age"
+    },
+    {
+        "query": "when was the last time there was a lunar eclipse",
+        "target": "2018 Jul 27",
+        "predicted": "January 31, 2018"
+    },
+    {
+        "query": "who plays greg pikitis on parks and recreation",
+        "target": "Cody Klop",
+        "predicted": "Josh Myers"
+    },
+    {
+        "query": "who sang dance with me i want to be your partner",
+        "target": "Orleans",
+        "predicted": "Barry Manilow"
+    },
+    {
+        "query": "when was nepal elected non permanent member of security council of un",
+        "target": "1968",
+        "predicted": "2007-2008"
+    },
+    {
+        "query": "who plays yzma from emperor's new groove",
+        "target": "Eartha Kitt",
+        "predicted": "Eartha Kitt"
+    },
+    {
+        "query": "when is the lodge coming to the us",
+        "target": "17 October 2016",
+        "predicted": "January 25, 2019"
+    },
+    {
+        "query": "who scored a hat trick for england 1966",
+        "target": "Geoff Hurst",
+        "predicted": "Geoff Hurst"
+    },
+    {
+        "query": "when was in the still of the night recorded",
+        "target": "February, 1956",
+        "predicted": "Feb. 19, 1956"
+    },
+    {
+        "query": "who wrote the book indian war of independence 1957",
+        "target": "Vinayak Damodar Savarkar",
+        "predicted": "V. D. Savarkar"
+    },
+    {
+        "query": "what is the name of the scotty dog in lady and the tramp",
+        "target": "Jock",
+        "predicted": "Jock"
+    },
+    {
+        "query": "where is national defence academy located in india",
+        "target": "Khadakwasla near Pune, Maharashtra",
+        "predicted": "Khadakwasla, Pune"
+    },
+    {
+        "query": "who owns the sands casino in bethlehem pa",
+        "target": "the Las Vegas Sands corporation",
+        "predicted": "Wind Creek Hospitality"
+    },
+    {
+        "query": "who is the owner of the eiffel tower",
+        "target": "City of Paris, France",
+        "predicted": "City of Paris"
+    },
+    {
+        "query": "name of the actor who plays captain america",
+        "target": "Christopher Robert Evans",
+        "predicted": "Chris Evans"
+    },
+    {
+        "query": "how many stones were used to build the statue of lincoln",
+        "target": "twenty-eight",
+        "predicted": "28 blocks"
+    },
+    {
+        "query": "what type of cells have cilia and flagella",
+        "target": "eukaryotes",
+        "predicted": "Eukaryotic cells"
+    },
+    {
+        "query": "what is the national debt of the united states of america",
+        "target": "$21.3 trillion",
+        "predicted": "$34.3 trillion"
+    },
+    {
+        "query": "where is the green bay packers stadium located",
+        "target": "Green Bay, Wisconsin",
+        "predicted": "Green Bay, Wisconsin"
+    },
+    {
+        "query": "where does the oboe sit in the orchestra",
+        "target": "woodwind section",
+        "predicted": "Woodwind section"
+    },
+    {
+        "query": "who is the actress who plays sybil in downton abbey",
+        "target": "Jessica Rose Brown Findlay",
+        "predicted": "Jessica Brown Findlay"
+    },
+    {
+        "query": "during the great depression the u.s. government adopted a type of federalism known as",
+        "target": "Cooperative Federalism",
+        "predicted": "cooperative federalism"
+    },
+    {
+        "query": "where do fuser and alberto meet the indigenous couple who were traveling to look for work",
+        "target": "In Chile",
+        "predicted": "Atacama Desert"
+    },
+    {
+        "query": "what happens when you get a shot clock violation",
+        "target": "turnover to their opponents",
+        "predicted": "Turnover"
+    },
+    {
+        "query": "how does a plane wing create lift which physics concept applies",
+        "target": "force",
+        "predicted": "Bernoulli's principle"
+    },
+    {
+        "query": "how much is a euromillions ticket in spain",
+        "target": "\u20ac2.50 per line",
+        "predicted": "2.50 euros"
+    },
+    {
+        "query": "how many levels are there in science olympiad",
+        "target": "two",
+        "predicted": "three"
+    },
+    {
+        "query": "different types of oils that can be used with an oio lens",
+        "target": "synthetic immersion oils",
+        "predicted": "Cargille Type A, Cargille Type B, Cargille Type F"
+    },
+    {
+        "query": "when were the us involved in the vietnam war",
+        "target": "1955 to 1975",
+        "predicted": "1955-1975"
+    },
+    {
+        "query": "what is the name of twilight all parts",
+        "target": "The Twilight Saga",
+        "predicted": "Twilight, New Moon, Eclipse, Breaking Dawn"
+    },
+    {
+        "query": "what type of book is the book of genesis",
+        "target": "a creation myth",
+        "predicted": "Religious text"
+    },
+    {
+        "query": "who plays obi wan kenobi in a new hope",
+        "target": "Alec Guinness",
+        "predicted": "Alec Guinness"
+    },
+    {
+        "query": "which city is known as science city of india",
+        "target": "Bengaluru (Bengaluru)",
+        "predicted": "Kolkata"
+    },
+    {
+        "query": "who played jo on the facts of life",
+        "target": "Nancy Justine McKeon",
+        "predicted": "Nancy McKeon"
+    },
+    {
+        "query": "who sings say you won t let go",
+        "target": "James Arthur",
+        "predicted": "James Arthur"
+    },
+    {
+        "query": "how many episodes of the daily show are there",
+        "target": "3,103",
+        "predicted": "3,790"
+    },
+    {
+        "query": "who is the yankees all-time leader in pitching wins",
+        "target": "Roger Clemens",
+        "predicted": "Whitey Ford"
+    },
+    {
+        "query": "in writing music pitches are notated vertically on the lines or between the lines of a",
+        "target": "staff",
+        "predicted": "staff"
+    },
+    {
+        "query": "who is credited with the initial research on packet switching theory",
+        "target": "Paul Baran",
+        "predicted": "Paul Baran"
+    },
+    {
+        "query": "who invented the greater than and less than sign",
+        "target": "Thomas Harriot",
+        "predicted": "Thomas Harriot"
+    },
+    {
+        "query": "when does season 4 episode 10 air for power",
+        "target": ",\u00a01996\u00a0(1996",
+        "predicted": "January 15, 2023"
+    },
+    {
+        "query": "what is the most recent nicholas sparks movie",
+        "target": "The Choice",
+        "predicted": "The Choice"
+    },
+    {
+        "query": "who wins great british baking show season 2",
+        "target": "Joanne Wheatley",
+        "predicted": "Jo Wheatley"
+    },
+    {
+        "query": "the amazon has the greatest discharge in the world. which river has the second greatest discharge",
+        "target": "Congo",
+        "predicted": "Congo River"
+    },
+    {
+        "query": "how many medals did singapore win in the 2015 sea games",
+        "target": "259",
+        "predicted": "84"
+    },
+    {
+        "query": "what is u of a in high school musical",
+        "target": "University of Albuquerque",
+        "predicted": "East High"
+    },
+    {
+        "query": "what part of the brain plays an important role in emotional conditioning",
+        "target": "amygdalae",
+        "predicted": "Amygdala"
+    },
+    {
+        "query": "real name of piya in pyaar ki yeh ek kahani",
+        "target": "Sukirti Kandpal",
+        "predicted": "Sukirti Kandpal"
+    },
+    {
+        "query": "who is the new host of spring baking championship",
+        "target": "Ali Khan",
+        "predicted": "Clinton Kelly"
+    },
+    {
+        "query": "when does the new season of gifted come out",
+        "target": "September 25, 2018",
+        "predicted": "The Gifted season 3 won't be happening"
+    },
+    {
+        "query": "where is the subsolar point on december 21",
+        "target": "Tropic of Capricorn",
+        "predicted": "Tropic of Capricorn"
+    },
+    {
+        "query": "when was the first twenty dollar bill made",
+        "target": "1861",
+        "predicted": "1861"
+    },
+    {
+        "query": "who plays gary girlfriend in remember the titans",
+        "target": "Kate Bosworth",
+        "predicted": "Wood Harris"
+    },
+    {
+        "query": "who sings i need a hero in footloose",
+        "target": "Bonnie Tyler",
+        "predicted": "Bonnie Tyler"
+    },
+    {
+        "query": "how many kanji characters are there in japanese",
+        "target": "85,000 characters",
+        "predicted": "Approximately 50,000"
+    },
+    {
+        "query": "which us city created the first formal us police department",
+        "target": "Philadelphia",
+        "predicted": "New York City"
+    },
+    {
+        "query": "who won the oscar for best actress in 2012",
+        "target": "Meryl Streep",
+        "predicted": "Meryl Streep"
+    },
+    {
+        "query": "which u.s. president enacted the federal income tax system",
+        "target": "Woodrow Wilson",
+        "predicted": "Abraham Lincoln"
+    },
+    {
+        "query": "how many us athletes in 2018 winter games",
+        "target": "241",
+        "predicted": "242"
+    },
+    {
+        "query": "when does the 2018 mlb regular season start",
+        "target": "March 29, 2018",
+        "predicted": "March 29, 2018"
+    },
+    {
+        "query": "a series of unfortunate events season 1 cast sunny",
+        "target": "Presley Smith",
+        "predicted": "Presley Smith"
+    },
+    {
+        "query": "learning always occurs as a result of what",
+        "target": "interactions between person and environment",
+        "predicted": "internal"
+    },
+    {
+        "query": "what's the name of the wicked witch of the west",
+        "target": "Lynessa",
+        "predicted": "Elphaba"
+    },
+    {
+        "query": "how many deaths has there been in nascar",
+        "target": "28 driver fatalities",
+        "predicted": "128 deaths"
+    },
+    {
+        "query": "who plays the artist in a place to call home",
+        "target": "Rick Donald",
+        "predicted": "not specified"
+    },
+    {
+        "query": "which part of the earth system includes the water in the everglades",
+        "target": "tropical wetlands",
+        "predicted": "hydrosphere"
+    },
+    {
+        "query": "when does the how to train your dragon 3 movie come out",
+        "target": "March 1, 2019",
+        "predicted": "February 22, 2019"
+    },
+    {
+        "query": "what are two types of vascular tissue found in most plants",
+        "target": "xylem and phloem",
+        "predicted": "xylem and phloem"
+    },
+    {
+        "query": "why is it called the mexican train game",
+        "target": "from a special optional train",
+        "predicted": "because it was popular among Mexican Railroad workers"
+    },
+    {
+        "query": "when did property taxes start in the united states",
+        "target": "1796",
+        "predicted": "1634"
+    },
+    {
+        "query": "who played spider man in spider man homecoming",
+        "target": "Tom Holland",
+        "predicted": "Tom Holland"
+    },
+    {
+        "query": "when was the carnival of the animals written",
+        "target": "February 1886",
+        "predicted": "1886"
+    },
+    {
+        "query": "who won the womens under 20 world cup",
+        "target": "Japan",
+        "predicted": "United States"
+    },
+    {
+        "query": "how many nfl games in a season total",
+        "target": "256",
+        "predicted": "256"
+    },
+    {
+        "query": "who is the guy singing in if we were a movie",
+        "target": "Corbin Bleu",
+        "predicted": "Miley Cyrus"
+    },
+    {
+        "query": "when was the last time astros win the world series",
+        "target": "2017",
+        "predicted": "2017"
+    },
+    {
+        "query": "who plays as maddie in liv and maddie",
+        "target": "Dove Cameron",
+        "predicted": "Dove Cameron"
+    },
+    {
+        "query": "where is the world cup taking place this year",
+        "target": "Russia",
+        "predicted": "Qatar"
+    },
+    {
+        "query": "what are the names of the characters in the breakfast club",
+        "target": "Allison Reynolds",
+        "predicted": "Brian Johnson, Andrew Clark, John Bender, Claire Standish, Allison Reynolds, Richard Vernon"
+    },
+    {
+        "query": "who won the battle of bull run manassas",
+        "target": "Confederate forces",
+        "predicted": "Confederate Army"
+    },
+    {
+        "query": "what breed of horses race in the kentucky derby",
+        "target": "Thoroughbreds",
+        "predicted": "Thoroughbred"
+    }
+]

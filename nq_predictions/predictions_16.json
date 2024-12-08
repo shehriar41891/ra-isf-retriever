@@ -1,0 +1,502 @@
+[
+    {
+        "query": "how i met your mother what did the mother die of",
+        "target": "undisclosed illness",
+        "predicted": "unnamed illness that likely was cancer"
+    },
+    {
+        "query": "what is the name that is given to a symbiotic relationship",
+        "target": "commensalism",
+        "predicted": "Symbiosis"
+    },
+    {
+        "query": "when was the last year the cleveland browns made the playoffs",
+        "target": "2002",
+        "predicted": "2002"
+    },
+    {
+        "query": "when was the first children's hospital built",
+        "target": "1741",
+        "predicted": "1852"
+    },
+    {
+        "query": "how many times has johnny depp and tim burton worked together",
+        "target": "eight",
+        "predicted": "8 times"
+    },
+    {
+        "query": "where does graphite come from in the world",
+        "target": "North Korea",
+        "predicted": "Natural deposits"
+    },
+    {
+        "query": "which branch of government commands the army and navy",
+        "target": "executive branch",
+        "predicted": "Executive branch"
+    },
+    {
+        "query": "when is the pokemon movie i choose you coming out",
+        "target": "November 5, 2017",
+        "predicted": "November 5, 2017"
+    },
+    {
+        "query": "what are the special names for positive and negative ions",
+        "target": "anion",
+        "predicted": "Cation and Anion"
+    },
+    {
+        "query": "how many different color m&m's are there",
+        "target": "17",
+        "predicted": "6"
+    },
+    {
+        "query": "who wrote the song sitting on the dock of the bay",
+        "target": "soul singer Otis Redding",
+        "predicted": "Otis Redding"
+    },
+    {
+        "query": "who carried the us flag at the closing ceremonies",
+        "target": "Jessie Diggins",
+        "predicted": "Katie Ledecky, Nick Mead"
+    },
+    {
+        "query": "boss baby what the world needs now singer",
+        "target": "Missi Hale",
+        "predicted": "Missi Hale"
+    },
+    {
+        "query": "when does the rest of suits season 7 air",
+        "target": "April\u00a018,\u00a02018",
+        "predicted": "July 12, 2017"
+    },
+    {
+        "query": "best actress in a leading role golden globe",
+        "target": "Frances McDormand",
+        "predicted": "Glenn Close accepts the best actress in a motion picture \u2013 drama award for her role in The Wife"
+    },
+    {
+        "query": "who sang the song queen of my heart",
+        "target": "Westlife",
+        "predicted": "Westlife"
+    },
+    {
+        "query": "how long is an episode of a series of unfortunate events",
+        "target": "40\u201364 minutes",
+        "predicted": "40-50 minutes"
+    },
+    {
+        "query": "when were the stocks last used in england",
+        "target": "1872",
+        "predicted": "11 June 1872"
+    },
+    {
+        "query": "when did the army air corp became the air force",
+        "target": "20 June 1941",
+        "predicted": "September 26, 1947"
+    },
+    {
+        "query": "what is the internal angle of a pentagon",
+        "target": "108\u00b0",
+        "predicted": "108 degrees"
+    },
+    {
+        "query": "when did the black death arrived in england",
+        "target": "June 1348",
+        "predicted": "1348"
+    },
+    {
+        "query": "when did the google pixel xl come out",
+        "target": "October\u00a020, 2016",
+        "predicted": "October 20, 2016"
+    },
+    {
+        "query": "who has had most uk number 1's",
+        "target": "Paul McCartney",
+        "predicted": "The Beatles"
+    },
+    {
+        "query": "who played lex luthor in the original superman movie",
+        "target": "Gene Hackman",
+        "predicted": "Gene Hackman"
+    },
+    {
+        "query": "who sang the song chandni o meri chandni",
+        "target": "Sridevi",
+        "predicted": "Mohammed Rafi"
+    },
+    {
+        "query": "texans won their independence as a result of what battle",
+        "target": "Battle of San Jacinto",
+        "predicted": "Battle of San Jacinto"
+    },
+    {
+        "query": "5 seconds of summer young blood album release date",
+        "target": "22 June 2018",
+        "predicted": "June 15, 2018"
+    },
+    {
+        "query": "when did the chronicles of narnia come out",
+        "target": "between 1950 and 1956",
+        "predicted": "1950"
+    },
+    {
+        "query": "where was the last man on earth filmed",
+        "target": "Rome, Italy",
+        "predicted": "Los Angeles"
+    },
+    {
+        "query": "who sang youre a mean one mr grinch",
+        "target": "Thurl Ravenscroft",
+        "predicted": "Thurl Ravenscroft"
+    },
+    {
+        "query": "when do bryophytes (including mosses liverworts and hornworts) first appear in the fossil record",
+        "target": "around the Middle Ordovician",
+        "predicted": "Ordovician period"
+    },
+    {
+        "query": "how many citizenships can you have in switzerland",
+        "target": "no restriction on multiple citizenship",
+        "predicted": "multiple citizenship without any restrictions"
+    },
+    {
+        "query": "how much does a 2004 chevy cavalier weight",
+        "target": "2,562\u20132,900\u00a0lb",
+        "predicted": "2,800 pounds"
+    },
+    {
+        "query": "the walking dead mika and lizzie real names",
+        "target": "Kyla Kenedy",
+        "predicted": "Kyla Kenedy and Brighton Sharbino"
+    },
+    {
+        "query": "who plays annabeth in the percy jackson series",
+        "target": "Alexandra Anna Daddario",
+        "predicted": "Alexandra Daddario"
+    },
+    {
+        "query": "what is the latest episode of house of cards",
+        "target": "May 30, 2017",
+        "predicted": "Chapter 73"
+    },
+    {
+        "query": "what is the length of varchar(max) in sql server",
+        "target": "2 gigabytes",
+        "predicted": "2^31-1 bytes"
+    },
+    {
+        "query": "when did aston villa win the european cup",
+        "target": "1982",
+        "predicted": "1982"
+    },
+    {
+        "query": "when did the song baby got back come out",
+        "target": "May 7, 1992",
+        "predicted": "1992"
+    },
+    {
+        "query": "who found gold in the california gold rush",
+        "target": "James W. Marshall",
+        "predicted": "James W. Marshall"
+    },
+    {
+        "query": "who is merle haggard singing about in the song leonard",
+        "target": "Tommy Collins",
+        "predicted": "Tommy Collins"
+    },
+    {
+        "query": "who plays melinda may in agents of shield",
+        "target": "Ming-Na Wen",
+        "predicted": "Ming-Na Wen"
+    },
+    {
+        "query": "abba why did it have to be me album",
+        "target": "Arrival",
+        "predicted": "Arrival"
+    },
+    {
+        "query": "who won first gold medal for india in olympics",
+        "target": "Abhinav Bindra",
+        "predicted": "Sir dorabji Tata"
+    },
+    {
+        "query": "when was the last time an 11 seed went to the elite eight",
+        "target": "2018",
+        "predicted": "UCLA in 2021"
+    },
+    {
+        "query": "who played willow in buffy the vampire slayer",
+        "target": "Alyson Lee Hannigan",
+        "predicted": "Alyson Hannigan"
+    },
+    {
+        "query": "when does season 4 of ray donovan come out",
+        "target": "June\u00a020,\u00a02016",
+        "predicted": "June 26, 2016"
+    },
+    {
+        "query": "whats the average height for a nba player",
+        "target": "6\u00a0ft 7\u00a0in",
+        "predicted": "6 feet 7 inches"
+    },
+    {
+        "query": "who plays rodrigo in mozart in the jungle",
+        "target": "Gael Garc\u00eda Bernal",
+        "predicted": "Gael Garc\u00eda Bernal"
+    },
+    {
+        "query": "what geographic feature separates north africa from the rest of africa",
+        "target": "desert",
+        "predicted": "Sahara Desert"
+    },
+    {
+        "query": "at what age do you leave high school in america",
+        "target": "16-19",
+        "predicted": "18"
+    },
+    {
+        "query": "who has won the most state of origin",
+        "target": "Queensland",
+        "predicted": "New South Wales"
+    },
+    {
+        "query": "who became famous by singing the blues during the jazz age",
+        "target": "Bessie Smith",
+        "predicted": "Bessie Smith"
+    },
+    {
+        "query": "who wrote the song you make me feel so young",
+        "target": "lyrics written by Mack Gordon",
+        "predicted": "Johnny Mercer"
+    },
+    {
+        "query": "who plays arthur in kingsman the golden circle",
+        "target": "Michael Gambon",
+        "predicted": "Edward Holcroft"
+    },
+    {
+        "query": "high level clouds that are mainly composed of ice crystals",
+        "target": "Cirrus clouds",
+        "predicted": "Cirrus clouds"
+    },
+    {
+        "query": "who played big mama in cat on a hot tin roof",
+        "target": "Judith Anderson",
+        "predicted": "Judith Anderson"
+    },
+    {
+        "query": "when does captain marvel the movie come out",
+        "target": "March 8, 2019",
+        "predicted": "March 8, 2019"
+    },
+    {
+        "query": "when did world cup expand to 32 teams",
+        "target": "1998",
+        "predicted": "1998"
+    },
+    {
+        "query": "what station is the breakfast club on iheartradio",
+        "target": "Power 105.1",
+        "predicted": "Power 105.1"
+    },
+    {
+        "query": "the part of the brain that regulates the production of the hormone melatonin is called",
+        "target": "the pineal gland",
+        "predicted": "pineal gland"
+    },
+    {
+        "query": "who does the voice of optimus prime in transformers age of extinction",
+        "target": "Peter Claver Cullen",
+        "predicted": "Peter Cullen"
+    },
+    {
+        "query": "in wall e what does bnl stand for",
+        "target": "Buy-N-Large",
+        "predicted": "Buy n Large"
+    },
+    {
+        "query": "who sings knock three times on the ceiling if you want me",
+        "target": "Irwin Levine",
+        "predicted": "Dawn McCarthy"
+    },
+    {
+        "query": "when did the soviet union take over afghanistan",
+        "target": "December 28, 1979",
+        "predicted": "December 1979"
+    },
+    {
+        "query": "who is the original singer of one moment in time",
+        "target": "Whitney Houston",
+        "predicted": "Whitney Houston"
+    },
+    {
+        "query": "who is the voice of king louis in jungle book",
+        "target": "Louis Prima",
+        "predicted": "Louis Prima"
+    },
+    {
+        "query": "who led an anti british movement in kitoor",
+        "target": "Kittur Chennamma",
+        "predicted": "Rani Channamma"
+    },
+    {
+        "query": "who dies in the book into thin air",
+        "target": "Krakauer's guide Andy Harris",
+        "predicted": "Rob Hall, Doug Hansen, Yasuko Namba, Tsewang Samanla"
+    },
+    {
+        "query": "what airlines fly to rio hato airport panama",
+        "target": "Air Transat",
+        "predicted": "Air Transat; Sunwing Airlines"
+    },
+    {
+        "query": "where did paul in the bible come from",
+        "target": "the city of Tarsus",
+        "predicted": "Tarsus"
+    },
+    {
+        "query": "who played charlie from charlie and the chocolate factory",
+        "target": "Peter Gardner[4] Ostrum",
+        "predicted": "Freddie Highmore"
+    },
+    {
+        "query": "rick and morty season 3 episode 7 airing date",
+        "target": "September\u00a010,\u00a02017",
+        "predicted": "October 1, 2017"
+    },
+    {
+        "query": "who is your next of kin when you die",
+        "target": "closest living blood relative",
+        "predicted": "Spouse or children"
+    },
+    {
+        "query": "who was the first boyd on last man standing",
+        "target": "twins Evan and Luke Kruntchev",
+        "predicted": "Evan or Luke Kruntchev"
+    },
+    {
+        "query": "who has been voted off of big brother 20",
+        "target": "Winston",
+        "predicted": "Unknown"
+    },
+    {
+        "query": "distance of earth orbit around the sun in miles",
+        "target": "584 million",
+        "predicted": "584 million miles"
+    },
+    {
+        "query": "when did bananas become popular in the us",
+        "target": "1876",
+        "predicted": "1960s"
+    },
+    {
+        "query": "who appoints speaker of lok sabha in india",
+        "target": "members of the Parliament",
+        "predicted": "The President of India"
+    },
+    {
+        "query": "who paid to make the documentary what the health",
+        "target": "funded via an Indiegogo campaign",
+        "predicted": "Joaquin Phoenix"
+    },
+    {
+        "query": "who made the most points in a single nba game",
+        "target": "Wilt Chamberlain",
+        "predicted": "Wilt Chamberlain, 100 points"
+    },
+    {
+        "query": "who is marley what is marley's relationship to scrooge",
+        "target": "deceased business partner",
+        "predicted": "Jacob Marley, Scrooge's business partner"
+    },
+    {
+        "query": "where was the movie outlaw josey wales filmed at",
+        "target": "Lake Powell",
+        "predicted": "New Mexico"
+    },
+    {
+        "query": "who was considered the father of the blues",
+        "target": "William Christopher Handy",
+        "predicted": "W.C. Handy"
+    },
+    {
+        "query": "with what are the german die br\u00fccke artists associated",
+        "target": "Expressionism",
+        "predicted": "Expressionism"
+    },
+    {
+        "query": "who has won the 2016 australian open men's single title",
+        "target": "Novak Djokovic",
+        "predicted": "Novak Djokovic"
+    },
+    {
+        "query": "when was the bible first translated in english",
+        "target": "1535",
+        "predicted": "1382"
+    },
+    {
+        "query": "who has the most 3 pointers in a season",
+        "target": "Stephen Curry",
+        "predicted": "402 three-pointers in 2015-16"
+    },
+    {
+        "query": "who played arnold schwarzenegger in the simpsons movie",
+        "target": "Harry Shearer",
+        "predicted": "Mark Moseley"
+    },
+    {
+        "query": "when does ball in the family come on",
+        "target": "every Sunday",
+        "predicted": "Sundays at 10 PM"
+    },
+    {
+        "query": "what are the chemical application of potassium permanganate",
+        "target": "cleaning wounds and dermatitis",
+        "predicted": "Oxidizing agent, disinfectant, water treatment, organic synthesis."
+    },
+    {
+        "query": "what is the head of a long bone called",
+        "target": "epiphysis",
+        "predicted": "Epiphysis"
+    },
+    {
+        "query": "who played samson's mother in the movie samson",
+        "target": "Lindsay Wagner",
+        "predicted": "Lindsay Wagner"
+    },
+    {
+        "query": "when did the civilization of ancient egypt begin",
+        "target": "around 3100\u00a0BC",
+        "predicted": "c. 3100 BCE"
+    },
+    {
+        "query": "who wrote the song knocking on heaven's door",
+        "target": "Bob Dylan",
+        "predicted": "Bob Dylan"
+    },
+    {
+        "query": "who broke salt law in belgaum in 1930",
+        "target": "Mohandas Karamchand Gandhi",
+        "predicted": "Gangadhar Rao Deshpande"
+    },
+    {
+        "query": "who plays connor's father on chicago med",
+        "target": "D. W. Moffett",
+        "predicted": "Michael Gladis"
+    },
+    {
+        "query": "what is a pa c in medical terms",
+        "target": "physician assistant",
+        "predicted": "Physician Assistant Certified"
+    },
+    {
+        "query": "when did boston's first album come out",
+        "target": "August 25, 1976",
+        "predicted": "1976"
+    },
+    {
+        "query": "how many episodes are in a season of nashville",
+        "target": "16",
+        "predicted": "22 episodes"
+    }
+]

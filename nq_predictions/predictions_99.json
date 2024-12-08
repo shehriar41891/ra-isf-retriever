@@ -1,0 +1,502 @@
+[
+    {
+        "query": "ooga chaka ooga ooga guardians of the galaxy",
+        "target": "Hooked on a Feeling",
+        "predicted": "ooga chaka"
+    },
+    {
+        "query": "who wrote don't sweat the small stuff",
+        "target": "Richard Carlson",
+        "predicted": "Richard Carlson"
+    },
+    {
+        "query": "who is running for senate in virginia 2018",
+        "target": "Corey Stewart",
+        "predicted": "Missing: 2018answer"
+    },
+    {
+        "query": "who has hit the most homeruns in the home run derby",
+        "target": "Todd Frazier",
+        "predicted": "Guerrero Jr."
+    },
+    {
+        "query": "who is the current minister of health in uganda",
+        "target": "Jane Aceng",
+        "predicted": "Jane Aceng"
+    },
+    {
+        "query": "where does the saying wise old owl come from",
+        "target": "traditional nursery rhyme",
+        "predicted": "ancient Greek and Roman mythology"
+    },
+    {
+        "query": "how many towns are in the state of connecticut",
+        "target": "169",
+        "predicted": "169"
+    },
+    {
+        "query": "will and grace episode where grace finds out she's pregnant",
+        "target": "The Definition of Marriage",
+        "predicted": "Grace finds out she's pregnant (at 50!) in the Series Finale of the 2017-2020 revival."
+    },
+    {
+        "query": "where was scooby doo 2 monsters unleashed filmed",
+        "target": "Vancouver",
+        "predicted": "Britannia Beach, British Columbia, Canada; Winnipeg, Manitoba, Canada; Stanley Park, Vancouver, British Columbia, Canada; Burnaby."
+    },
+    {
+        "query": "when did the first colour tv come out in the uk",
+        "target": "1967",
+        "predicted": "1967"
+    },
+    {
+        "query": "when did the tampa bay rays become a team",
+        "target": "1998",
+        "predicted": "1998"
+    },
+    {
+        "query": "the individual best known for his work on behavior theory is",
+        "target": "George Casper Homans",
+        "predicted": "B.F. Skinner"
+    },
+    {
+        "query": "when did the red sox yankees rivalry began",
+        "target": "1919",
+        "predicted": "Early 20th century"
+    },
+    {
+        "query": "who plays henry the octopus on the wiggles",
+        "target": "Fatt",
+        "predicted": "Unknown"
+    },
+    {
+        "query": "when did ac milan last win the italian serie a title",
+        "target": "18",
+        "predicted": "2011"
+    },
+    {
+        "query": "is new york a country or a state",
+        "target": "state",
+        "predicted": "state"
+    },
+    {
+        "query": "who played orville in every which way but loose",
+        "target": "Geoffrey Lewis",
+        "predicted": "Geoffrey Lewis"
+    },
+    {
+        "query": "where are corn snakes found in the wild",
+        "target": "southeastern and central United States",
+        "predicted": "Southeastern United States"
+    },
+    {
+        "query": "who won the next iron chef super chefs in 2011",
+        "target": "Zakarian",
+        "predicted": "Geoffrey Zakarian"
+    },
+    {
+        "query": "when did brown v board of education take place",
+        "target": "1954",
+        "predicted": "1954"
+    },
+    {
+        "query": "who was the third estate made up of",
+        "target": "peasants and bourgeoisie",
+        "predicted": "commoners"
+    },
+    {
+        "query": "how old do you have to be to get a drivers license in sc",
+        "target": "15 years, 6 months",
+        "predicted": "16"
+    },
+    {
+        "query": "who won the most states in a presidential election",
+        "target": "Ronald Reagan",
+        "predicted": "Joe Biden"
+    },
+    {
+        "query": "where did the bunny come from for easter",
+        "target": "among German Lutherans",
+        "predicted": "German immigrants"
+    },
+    {
+        "query": "what ion causes the color of the indicator to change",
+        "target": "hydronium ions",
+        "predicted": "H+ ions"
+    },
+    {
+        "query": "how many players in the us open field",
+        "target": "156",
+        "predicted": "156 players"
+    },
+    {
+        "query": "when did man utd move to old trafford",
+        "target": "on 21 August 1935",
+        "predicted": "1910"
+    },
+    {
+        "query": "who sang let it go in frozen movie",
+        "target": "Queen Elsa",
+        "predicted": "Idina Menzel"
+    },
+    {
+        "query": "what movie was the song break my stride in",
+        "target": "Cedar Rapids",
+        "predicted": "Dickie Roberts: Former Child Star"
+    },
+    {
+        "query": "who sings bridge of life in happy feet 2",
+        "target": "Pink",
+        "predicted": "Pink"
+    },
+    {
+        "query": "who does linda cardellini play in age of ultron",
+        "target": "Laura Barton",
+        "predicted": "Laura Barton"
+    },
+    {
+        "query": "how old is the kid from the sixth sense",
+        "target": "age\u00a029",
+        "predicted": "11-years-old"
+    },
+    {
+        "query": "when was the consumer financial protection bureau established",
+        "target": "July\u00a021, 2011",
+        "predicted": "2010"
+    },
+    {
+        "query": "who did the virginia plan give more power to",
+        "target": "larger states",
+        "predicted": "national government"
+    },
+    {
+        "query": "who plays in the nfl wild card games",
+        "target": "Buffalo Bills",
+        "predicted": "Cowboys and Seahawks"
+    },
+    {
+        "query": "when did martin luther king jr give his speach",
+        "target": "August 28, 1963",
+        "predicted": "August 28, 1963"
+    },
+    {
+        "query": "who wrote the song i like the sound of that",
+        "target": "Shay Mooney",
+        "predicted": "Unknown"
+    },
+    {
+        "query": "when does pretty little liars season finale air",
+        "target": "June 27, 2017",
+        "predicted": "June 27, 2017"
+    },
+    {
+        "query": "when was the apple ipad mini 4 released",
+        "target": "September 9, 2015",
+        "predicted": "September 9, 2015"
+    },
+    {
+        "query": "who won the most little league world series",
+        "target": "Taiwan",
+        "predicted": "United States"
+    },
+    {
+        "query": "who plays the daughter in the new freaky friday",
+        "target": "Cozi Zuehlsdorff",
+        "predicted": "Lindsay Lohan"
+    },
+    {
+        "query": "what is the best selling nintendo game of all time",
+        "target": "Wii Sports",
+        "predicted": "Wii Sports"
+    },
+    {
+        "query": "which u.s. general was the architect of the berlin airlift",
+        "target": "Curtis Emerson LeMay",
+        "predicted": "General William H. Tunner"
+    },
+    {
+        "query": "who owns the d hotel in las vegas",
+        "target": "Derek and Greg Stevens",
+        "predicted": "Derek and Greg Stevens"
+    },
+    {
+        "query": "which commission was appointed for the creation of new states on the basis of language",
+        "target": "The States Reorganisation Commission",
+        "predicted": "States Reorganization Commission"
+    },
+    {
+        "query": "who built the rio hotel in las vegas",
+        "target": "Marnell Corrao Associates",
+        "predicted": "Marnell Corrao Associates"
+    },
+    {
+        "query": "which term refers to an assumed rapid expansion of the universe immediately after the big bang",
+        "target": "cosmic inflation",
+        "predicted": "Inflation"
+    },
+    {
+        "query": "who has the number 1 song in america",
+        "target": "Drake",
+        "predicted": "\"All I Want for Christmas Is You\""
+    },
+    {
+        "query": "in the name of god ye not guilty",
+        "target": "Big O",
+        "predicted": "Cast in the name of God, Ye not guilty"
+    },
+    {
+        "query": "who sang the song you take my breath away",
+        "target": "Berlin",
+        "predicted": "Berlin"
+    },
+    {
+        "query": "who played violet rutherford on leave it to beaver",
+        "target": "Cartwright",
+        "predicted": "Judy Nugent"
+    },
+    {
+        "query": "who played cindy lou who in the grinch stole christmas",
+        "target": "Taylor Michel Momsen",
+        "predicted": "Taylor Momsen"
+    },
+    {
+        "query": "who sang with you i'm born again",
+        "target": "Billy Preston",
+        "predicted": "Billy Preston and Syreeta Wright"
+    },
+    {
+        "query": "when did the battle of salamis take place",
+        "target": "480 BC",
+        "predicted": "480 BC"
+    },
+    {
+        "query": "who named the country 'islas de san lazaro'",
+        "target": "Ferdinand Magellan",
+        "predicted": "Ferdinand Magellan"
+    },
+    {
+        "query": "which important resource used today is found in the southern part of the fertile crescent",
+        "target": "water",
+        "predicted": "oil"
+    },
+    {
+        "query": "who is the winner of big boss hindi",
+        "target": "Manveer Gurjar",
+        "predicted": "Sidharth Shukla"
+    },
+    {
+        "query": "who played the bearded lady in the greatest shiwman",
+        "target": "Keala Settle",
+        "predicted": "Keala Settle"
+    },
+    {
+        "query": "who came second in the xfactor in 2009",
+        "target": "Olly Murs",
+        "predicted": "Olly Murs"
+    },
+    {
+        "query": "what year did the first pokemon game come out in america",
+        "target": "September 28, 1998",
+        "predicted": "1998"
+    },
+    {
+        "query": "who played the title role in 1971 willy wonka",
+        "target": "Gene Wilder",
+        "predicted": "Gene Wilder"
+    },
+    {
+        "query": "where is panama canal located on the map",
+        "target": "the Isthmus of Panama",
+        "predicted": "Central America"
+    },
+    {
+        "query": "president are allowed to issue which kind of orders without the approval of congress",
+        "target": "executive order",
+        "predicted": "Executive orders"
+    },
+    {
+        "query": "who played mrs. tibbs in the heat of the night",
+        "target": "Anne-Marie Johnson",
+        "predicted": "Beah Richards"
+    },
+    {
+        "query": "what part of new york is gossip girl set",
+        "target": "Manhattan's Upper East Side",
+        "predicted": "Upper East Side"
+    },
+    {
+        "query": "where was the mauryan empire located on a map",
+        "target": "Pakistan",
+        "predicted": "Indian subcontinent"
+    },
+    {
+        "query": "when was the last time the buffalo bills played in a playoff game",
+        "target": "2017",
+        "predicted": "January 8, 1999"
+    },
+    {
+        "query": "who is the oldest person living in the united states today",
+        "target": "Delphine Gibson",
+        "predicted": "Naomi Whitehead"
+    },
+    {
+        "query": "when did alexander graham bell invented the photophone",
+        "target": "February 19, 1880",
+        "predicted": "1880"
+    },
+    {
+        "query": "where is the valuable oil called spermaceti located on a sperm whale",
+        "target": "the head cavities",
+        "predicted": "Head cavity"
+    },
+    {
+        "query": "the most happy country in the world 2018",
+        "target": "Finland",
+        "predicted": "Finland"
+    },
+    {
+        "query": "where are most rna viruses replicated and assembled within the host",
+        "target": "in cytoplasm",
+        "predicted": "cytoplasm"
+    },
+    {
+        "query": "who is the chairman of the house ethics committee",
+        "target": "Susan Brooks",
+        "predicted": "Michael Guest"
+    },
+    {
+        "query": "how many chests of tea were dumped in the boston harbor",
+        "target": "342",
+        "predicted": "342 chests"
+    },
+    {
+        "query": "how many episodes in season 2 of happy valley",
+        "target": "six",
+        "predicted": "6 episodes"
+    },
+    {
+        "query": "who started the 3 on 3 basketball league",
+        "target": "January\u00a011, 2017",
+        "predicted": "Ice Cube and Jeff Kwatinetz"
+    },
+    {
+        "query": "who invented the gas mask in world war 1",
+        "target": "Cluny Macpherson",
+        "predicted": "Garrett Morgan"
+    },
+    {
+        "query": "who owns the m casino in las vegas",
+        "target": "Gaming and Leisure Properties",
+        "predicted": "Gaming and Leisure Properties"
+    },
+    {
+        "query": "which teams have won world cup in cricket",
+        "target": "India",
+        "predicted": "Australia, West Indies, India, Pakistan, Sri Lanka, England"
+    },
+    {
+        "query": "when does the new season of superstore start",
+        "target": "September\u00a028,\u00a02017",
+        "predicted": "October 29, 2020"
+    },
+    {
+        "query": "what is the full form of ms in medical",
+        "target": "Master of Surgery",
+        "predicted": "multiple sclerosis"
+    },
+    {
+        "query": "when was the first cure for tuberculosis found",
+        "target": "In 1944",
+        "predicted": "1854"
+    },
+    {
+        "query": "who played charlie on charlie angels tv series",
+        "target": "John Forsythe",
+        "predicted": "John Forsythe"
+    },
+    {
+        "query": "who sings lead vocals on have a cigar",
+        "target": "Roy Harper",
+        "predicted": "Roger Waters"
+    },
+    {
+        "query": "who wrote the song up a lazy river",
+        "target": "Sidney Arodin",
+        "predicted": "Hoagy Carmichael"
+    },
+    {
+        "query": "most points by a player in nba season",
+        "target": "4,029",
+        "predicted": "12400 points"
+    },
+    {
+        "query": "when did the currency of botswana came in circulation",
+        "target": "1976",
+        "predicted": "1976"
+    },
+    {
+        "query": "what part of a cow does a t-bone steak come from",
+        "target": "short loin",
+        "predicted": "Short loin"
+    },
+    {
+        "query": "where did the french colonize the new world",
+        "target": "in South America",
+        "predicted": "Canada, Louisiana"
+    },
+    {
+        "query": "who wrote it's the end of the world as we know it",
+        "target": "Peter Buck",
+        "predicted": "R.E.M."
+    },
+    {
+        "query": "when does pirates of the caribbean 5 come out",
+        "target": "2017",
+        "predicted": "May 26, 2017"
+    },
+    {
+        "query": "who wrote you really got a hold on me",
+        "target": "Smokey Robinson",
+        "predicted": "Smokey Robinson"
+    },
+    {
+        "query": "the office season 6 episode 1 guest stars",
+        "target": "Elvy Yost",
+        "predicted": "Zach Woods, Rashida Jones"
+    },
+    {
+        "query": "who won the most grammys in the world",
+        "target": "Sir Georg Solti",
+        "predicted": "Georg Solti"
+    },
+    {
+        "query": "who were the first british settlers in america",
+        "target": "the London Company",
+        "predicted": "Jamestown"
+    },
+    {
+        "query": "how many 4-year colleges and universities in the u.s",
+        "target": "4,726",
+        "predicted": "2,832"
+    },
+    {
+        "query": "who won the 1979 ncaa men's basketball championship",
+        "target": "Michigan State",
+        "predicted": "Michigan State University"
+    },
+    {
+        "query": "peptidyl t rna is bound to which site",
+        "target": "The P-site",
+        "predicted": "P site"
+    },
+    {
+        "query": "who has been to the most world cup finals",
+        "target": "Brazil",
+        "predicted": "Brazil"
+    },
+    {
+        "query": "what group on the periodic table are noble gases",
+        "target": "group\u00a018",
+        "predicted": "Group 18"
+    }
+]

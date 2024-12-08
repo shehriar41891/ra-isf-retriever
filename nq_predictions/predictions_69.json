@@ -1,0 +1,502 @@
+[
+    {
+        "query": "what's the capacity of the rose bowl",
+        "target": "90,888",
+        "predicted": "88,565"
+    },
+    {
+        "query": "who sang i was made for loving you",
+        "target": "Kiss",
+        "predicted": "Tori Kelly"
+    },
+    {
+        "query": "who won in the mapp v ohio case",
+        "target": "Mapp",
+        "predicted": "Mapp"
+    },
+    {
+        "query": "who plays bella on bella and the bulldogs",
+        "target": "Brec Bassinger",
+        "predicted": "Bella is played by Breanna Yde."
+    },
+    {
+        "query": "he played liz and petes boss on 30 rock",
+        "target": "Alec Baldwin",
+        "predicted": "Jack Donaghy"
+    },
+    {
+        "query": "when is the last time the federal minimum wage was raised",
+        "target": "October 2016",
+        "predicted": "July 24, 2009"
+    },
+    {
+        "query": "who has the most likes on instagram picture",
+        "target": "Kylie Jenner",
+        "predicted": "egg photo"
+    },
+    {
+        "query": "what wars did the tuskegee airmen fight in",
+        "target": "World War II",
+        "predicted": "World War II"
+    },
+    {
+        "query": "taxes on a gallon of gasoline in california",
+        "target": "41.70",
+        "predicted": "$1.29 in taxes and fees per each gallon of gas"
+    },
+    {
+        "query": "who played the caveman in the geico commercials",
+        "target": "Ben Weber",
+        "predicted": "Peter Grosz"
+    },
+    {
+        "query": "when was the first reality tv show aired",
+        "target": "1965",
+        "predicted": "1948"
+    },
+    {
+        "query": "when was the construction of the berlin wall finished",
+        "target": "about 1980",
+        "predicted": "1989"
+    },
+    {
+        "query": "what movie is the song crazy train in",
+        "target": "Ghost Rider",
+        "predicted": "Inside Out 2"
+    },
+    {
+        "query": "the vestal virgins were associated with the prosperity of which civilization",
+        "target": "ancient Rome",
+        "predicted": "Roman civilization"
+    },
+    {
+        "query": "who sang billy don't be a hero first",
+        "target": "Bo Donaldson and The Heywoods",
+        "predicted": "Bo Donaldson and The Heywoods"
+    },
+    {
+        "query": "who is talking at the end of blame game",
+        "target": "Chris Rock",
+        "predicted": "sanakan"
+    },
+    {
+        "query": "who helps santa claus in making his gifts",
+        "target": "his elves",
+        "predicted": "Elves"
+    },
+    {
+        "query": "description of katherine in taming of the shrew",
+        "target": "headstrong, obdurate shrew",
+        "predicted": "The shrewish and strong-willed daughter"
+    },
+    {
+        "query": "what is hct on a cbc blood test",
+        "target": "Hematocrit",
+        "predicted": "Hematocrit"
+    },
+    {
+        "query": "why is our calendar called the gregorian calendar",
+        "target": "named after Pope Gregory XIII",
+        "predicted": "Pope Gregory XIII"
+    },
+    {
+        "query": "what is the current episode of the fosters",
+        "target": "\"Prom\"",
+        "predicted": "Missing: current answer"
+    },
+    {
+        "query": "when do saints and sinners season 3 start",
+        "target": "April\u00a018,\u00a02018",
+        "predicted": "2019"
+    },
+    {
+        "query": "according to dot what is the most common mode of transportation for hazardous materials",
+        "target": "truck",
+        "predicted": "Truck"
+    },
+    {
+        "query": "who sang take that look off your face",
+        "target": "Marti Webb",
+        "predicted": "Elkie Brooks"
+    },
+    {
+        "query": "who is the current head of the department of justice",
+        "target": "Jeff Sessions",
+        "predicted": "Jeff Sessions"
+    },
+    {
+        "query": "what's the population of fargo north dakota",
+        "target": "120,762",
+        "predicted": "133,188"
+    },
+    {
+        "query": "who wrote the song i have a dream",
+        "target": "Bjorn Ulvaeus",
+        "predicted": "ABBA"
+    },
+    {
+        "query": "who won the national championship last year college football",
+        "target": "Alabama Crimson Tide",
+        "predicted": "Alabama"
+    },
+    {
+        "query": "which is the asia's smallest country in term of area and population",
+        "target": "Maldives",
+        "predicted": "Maldives"
+    },
+    {
+        "query": "who played leo's daughter on west wing",
+        "target": "Allison Smith",
+        "predicted": "Elisabeth Moss"
+    },
+    {
+        "query": "where is the red river rivalry played 2017",
+        "target": "Dallas",
+        "predicted": "Cotton Bowl Stadium"
+    },
+    {
+        "query": "what does the word redemption mean in the bible",
+        "target": "deliverance from sin",
+        "predicted": "Deliverance from sin"
+    },
+    {
+        "query": "when did led zeppelin's first album come out",
+        "target": "12 January 1969",
+        "predicted": "January 12, 1969"
+    },
+    {
+        "query": "what is the chronological order of the fast and furious movies",
+        "target": "Fast & Furious",
+        "predicted": "The Fast and the Furious, 2 Fast 2 Furious, The Fast and the Furious: Tokyo Drift, Fast & Furious, Fast Five, Fast & Furious 6, Furious 7, The Fate of the Furious."
+    },
+    {
+        "query": "what kind of seals are in nova scotia",
+        "target": "the grey seal",
+        "predicted": "Harbour seals, grey seals"
+    },
+    {
+        "query": "when does the rugby super league season end",
+        "target": "September",
+        "predicted": "12 October"
+    },
+    {
+        "query": "who beat one direction on the x factor",
+        "target": "Matt Cardle",
+        "predicted": "Matt"
+    },
+    {
+        "query": "when did the first season of psych come out",
+        "target": "July 7, 2006",
+        "predicted": "July 7, 2006"
+    },
+    {
+        "query": "highest point from the center of the earth",
+        "target": "Chimborazo",
+        "predicted": "Everest"
+    },
+    {
+        "query": "where is the electron transport chain located in eukaryotes",
+        "target": "inner mitochondrial membrane",
+        "predicted": "inner mitochondrial membrane"
+    },
+    {
+        "query": "what was one goal of the marshall plan",
+        "target": "rebuild war-torn regions",
+        "predicted": "Economic recovery in Europe"
+    },
+    {
+        "query": "when was the last time dallas won a playoff game",
+        "target": "2014",
+        "predicted": "2014"
+    },
+    {
+        "query": "means that research must measure what it purports to measure",
+        "target": "Construct validity",
+        "predicted": "Validity"
+    },
+    {
+        "query": "who sang the song i am a conqueror",
+        "target": "Estelle",
+        "predicted": "Fantasia"
+    },
+    {
+        "query": "when was the last time mount saint helens exploded",
+        "target": "May 18, 1980",
+        "predicted": "2008"
+    },
+    {
+        "query": "which part of the plant turmeric is obtained",
+        "target": "the rhizomes",
+        "predicted": "rhizome"
+    },
+    {
+        "query": "who is the founder of johns hopkins hospital",
+        "target": "Johns Hopkins",
+        "predicted": "Johns Hopkins"
+    },
+    {
+        "query": "when was the last time the us drafted",
+        "target": "1973",
+        "predicted": "1973"
+    },
+    {
+        "query": "when did puss in boots appear in shrek",
+        "target": "Shrek 2",
+        "predicted": "Shrek 2"
+    },
+    {
+        "query": "who is featured on beibs in the trap",
+        "target": "Nav",
+        "predicted": "NAV"
+    },
+    {
+        "query": "who is the master of trinity college cambridge",
+        "target": "Sir Gregory Winter",
+        "predicted": "Dame Sally Davies"
+    },
+    {
+        "query": "who lived at the san francisco solano mission",
+        "target": "Indians",
+        "predicted": "Miwok, Pomo, and Wappo"
+    },
+    {
+        "query": "where does the water in niagara falls come from",
+        "target": "Lake Erie",
+        "predicted": "Great Lakes"
+    },
+    {
+        "query": "who wrote me and bobby mcgee by janis joplin",
+        "target": "Kris Kristofferson",
+        "predicted": "Kris Kristofferson, Fred Foster"
+    },
+    {
+        "query": "british singer who won 3rd series of x factor in 2006",
+        "target": "Ben Mills",
+        "predicted": "Leona Lewis"
+    },
+    {
+        "query": "who plays howard's mother on the big bang",
+        "target": "Carol Ann Susi",
+        "predicted": "Carol Ann Susi"
+    },
+    {
+        "query": "where is the secondary ossification center located in a long bone",
+        "target": "epiphyses",
+        "predicted": "Epiphysis"
+    },
+    {
+        "query": "who wrote the score for fiddler on the roof",
+        "target": "Jerry Bock",
+        "predicted": "Jerry Bock"
+    },
+    {
+        "query": "when did killer klowns from outer space come out",
+        "target": "1988",
+        "predicted": "1988"
+    },
+    {
+        "query": "who plays dr shepherd on grey's anatomy",
+        "target": "Patrick Dempsey",
+        "predicted": "Patrick Dempsey"
+    },
+    {
+        "query": "when did star spangled banner became the national anthem",
+        "target": "on March 3, 1931",
+        "predicted": "1931"
+    },
+    {
+        "query": "which disorder is a common form of hypothyroidism",
+        "target": "Hashimoto's thyroiditis",
+        "predicted": "Hashimoto's thyroiditis"
+    },
+    {
+        "query": "where did the us get uranium for the atomic bomb",
+        "target": "the Belgian Congo",
+        "predicted": "Canada"
+    },
+    {
+        "query": "where does the savannah river begin and end",
+        "target": "Lake Hartwell",
+        "predicted": "Begins at the confluence of the Tugaloo and Seneca rivers; ends at the Atlantic Ocean."
+    },
+    {
+        "query": "who sang a heart is a house for love",
+        "target": "The Dells",
+        "predicted": "Wanderer"
+    },
+    {
+        "query": "who is running for lt gov of ca",
+        "target": "Ed Hernandez",
+        "predicted": "Eleni Kounalakis"
+    },
+    {
+        "query": "when did the doctor first use a sonic screwdriver",
+        "target": "Fury from the Deep",
+        "predicted": "1968"
+    },
+    {
+        "query": "where can i find el shaddai in the bible",
+        "target": "Genesis",
+        "predicted": "Genesis 17:1"
+    },
+    {
+        "query": "where were the common wealth games 2014 held",
+        "target": "Glasgow, Scotland",
+        "predicted": "Glasgow"
+    },
+    {
+        "query": "who starred in the original movie the beguiled",
+        "target": "Geraldine Page",
+        "predicted": "Clint Eastwood, Geraldine Page, Elizabeth Hartman, Jo Ann Harris, and Diane Lane"
+    },
+    {
+        "query": "who flew to close to the sun and his wings melted",
+        "target": "Icarus",
+        "predicted": "Icarus"
+    },
+    {
+        "query": "how many friday ice cube movies are there",
+        "target": "Three films",
+        "predicted": "Four"
+    },
+    {
+        "query": "what powers did the bantu education give the government",
+        "target": "enforcing racially separated educational facilities",
+        "predicted": "sweeping powers over the education of black South Africans"
+    },
+    {
+        "query": "what does mcl stand for in michigan law",
+        "target": "Michigan Compiled Laws",
+        "predicted": "Michigan Compiled Laws"
+    },
+    {
+        "query": "when did republicans take control of the senate",
+        "target": "January 2015",
+        "predicted": "2019"
+    },
+    {
+        "query": "who was the oldest man ever elected president",
+        "target": "Donald Trump",
+        "predicted": "Donald Trump"
+    },
+    {
+        "query": "how many stars are on the ohio state flag",
+        "target": "seventeen",
+        "predicted": "17"
+    },
+    {
+        "query": "who writes the songs for five finger death punch",
+        "target": "Five Finger Death Punch",
+        "predicted": "Ivan Moody"
+    },
+    {
+        "query": "when did the first woman shave her legs",
+        "target": "the early 20th century",
+        "predicted": "1920"
+    },
+    {
+        "query": "when did the koenigsegg agera rs come out",
+        "target": "2015",
+        "predicted": "2015"
+    },
+    {
+        "query": "where is the smallest bone in the body located",
+        "target": "the middle ear",
+        "predicted": "Ear"
+    },
+    {
+        "query": "how old is the actor that plays bruce wayne in gotham",
+        "target": "17",
+        "predicted": "17 years old"
+    },
+    {
+        "query": "where is the salivary gland located in humans",
+        "target": "the mouth",
+        "predicted": "mouth, under the jaw, near the ears"
+    },
+    {
+        "query": "where is the headquarters of the mcdonald's corporation located",
+        "target": "Chicago",
+        "predicted": "Oak Brook, Illinois"
+    },
+    {
+        "query": "what is the tv show riverdale based off of",
+        "target": "Archie Comics",
+        "predicted": "Archie Comics"
+    },
+    {
+        "query": "who won the national championship in ncaa basketball last year",
+        "target": "Villanova",
+        "predicted": "UConn Huskies"
+    },
+    {
+        "query": "when was the last time new england won the super bowl",
+        "target": "2016",
+        "predicted": "2018"
+    },
+    {
+        "query": "who sings the x force song at the end of deadpool 2",
+        "target": "AC/DC",
+        "predicted": "Celine Dion"
+    },
+    {
+        "query": "who wrote the song eye of the tiger",
+        "target": "Jim Peterik",
+        "predicted": "Survivor"
+    },
+    {
+        "query": "narrow channel of sea that separates sri lanka and india",
+        "target": "Palk Strait",
+        "predicted": "Palk Strait"
+    },
+    {
+        "query": "how.many episodes of the handmaid's tale season 2",
+        "target": "13",
+        "predicted": "13 episodes"
+    },
+    {
+        "query": "who plays arthur in arthur and the invisibles",
+        "target": "Freddie Highmore",
+        "predicted": "Freddie Highmore"
+    },
+    {
+        "query": "who was assigned the task of partitioning india in 1947",
+        "target": "Sir Cyril Radcliffe",
+        "predicted": "Mountbatten"
+    },
+    {
+        "query": "who divided the bible into chapter and verses",
+        "target": "editors",
+        "predicted": "Stephen Langton"
+    },
+    {
+        "query": "who is the lead singer of the black eyed peas",
+        "target": "Taboo",
+        "predicted": "will.i.am"
+    },
+    {
+        "query": "when did john snow come back to life",
+        "target": "The Red Woman",
+        "predicted": "season 6, episode 2, \"Home.\""
+    },
+    {
+        "query": "who ran the first under 4 minute mile",
+        "target": "Roger Bannister",
+        "predicted": "Roger Bannister"
+    },
+    {
+        "query": "when was the earthquake that destroyed the colosseum",
+        "target": "1349",
+        "predicted": ""
+    },
+    {
+        "query": "who sings on the phantom of the opera soundtrack",
+        "target": "Emmy Rossum",
+        "predicted": "Michael Crawford, Sarah Brightman"
+    },
+    {
+        "query": "when was the last time the mariners went to the world series",
+        "target": "never",
+        "predicted": "never"
+    }
+]

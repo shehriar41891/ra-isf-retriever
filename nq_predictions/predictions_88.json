@@ -1,0 +1,502 @@
+[
+    {
+        "query": "where do the boston bruins play their home games",
+        "target": "TD Garden",
+        "predicted": "TD Garden"
+    },
+    {
+        "query": "what is the number for pie in math",
+        "target": "approximately equal to 3.14159",
+        "predicted": "3.14159"
+    },
+    {
+        "query": "when does this year's nfl season start",
+        "target": "September 7, 2017",
+        "predicted": "Unknown"
+    },
+    {
+        "query": "where do the belchers live in bob's burgers",
+        "target": "an unnamed seaside community",
+        "predicted": "Above the restaurant"
+    },
+    {
+        "query": "when does america's got talent season 13 start",
+        "target": "May 29, 2018",
+        "predicted": "May 28, 2018"
+    },
+    {
+        "query": "who was the first billionaire in the united states",
+        "target": "John D. Rockefeller",
+        "predicted": "John D. Rockefeller"
+    },
+    {
+        "query": "when was the national pan hellenic council formed",
+        "target": "1930",
+        "predicted": "1930"
+    },
+    {
+        "query": "when does the men's world cup start",
+        "target": "2018",
+        "predicted": "18 December 2022"
+    },
+    {
+        "query": "when was the texas rangers baseball team established",
+        "target": "1961",
+        "predicted": "1961"
+    },
+    {
+        "query": "who was the future american president who made a national name",
+        "target": "Benjamin Harrison",
+        "predicted": "Theodore Roosevelt"
+    },
+    {
+        "query": "who sang the original you've lost that loving feeling",
+        "target": "the Righteous Brothers",
+        "predicted": "The Righteous Brothers"
+    },
+    {
+        "query": "what is the name of the tower big ben is in",
+        "target": "Elizabeth Tower",
+        "predicted": "Elizabeth Tower"
+    },
+    {
+        "query": "who is the famous painter who painted shakunthala",
+        "target": "Raja Ravi Varma.",
+        "predicted": "Raja Ravi Varma"
+    },
+    {
+        "query": "how often do we have a census in new zealand",
+        "target": "every five years",
+        "predicted": "every five years"
+    },
+    {
+        "query": "who plays tokyo in la casa de papel",
+        "target": "\u00darsula Corber\u00f3",
+        "predicted": "\u00darsula Corber\u00f3"
+    },
+    {
+        "query": "who has received the player of the century award",
+        "target": "Diego Maradona",
+        "predicted": "Diego Maradona and Pel\u00e9"
+    },
+    {
+        "query": "who plays the little boy in polar express",
+        "target": "Daryl Sabara",
+        "predicted": "Daryl Sabara"
+    },
+    {
+        "query": "who chooses the florida speaker of the house",
+        "target": "the members of the Chamber",
+        "predicted": "Both the Republican and Democratic Members of the House"
+    },
+    {
+        "query": "who played eugene tooms in the x files",
+        "target": "Doug Hutchison",
+        "predicted": "Doug Hutchison"
+    },
+    {
+        "query": "what was the name of the german government after ww1",
+        "target": "Weimar Republic",
+        "predicted": "Weimar Republic"
+    },
+    {
+        "query": "who is the reigning monarch of the netherlands",
+        "target": "King Willem-Alexander",
+        "predicted": "King Willem-Alexander"
+    },
+    {
+        "query": "who was the philadelphia eagles starting quarterback this year",
+        "target": "Carson Wentz (13)",
+        "predicted": "Jalen Hurts"
+    },
+    {
+        "query": "who is the other family in a series of unfortunate events",
+        "target": "Quagmire",
+        "predicted": "Quagmires"
+    },
+    {
+        "query": "when was the new 1 pound coin made",
+        "target": "2016",
+        "predicted": "2017"
+    },
+    {
+        "query": "when did the smoking ban start in scotland",
+        "target": "26 March 2006",
+        "predicted": "26 March 2006"
+    },
+    {
+        "query": "when did the first episode of america's next top model air",
+        "target": "May 20, 2003",
+        "predicted": "May 20, 2003"
+    },
+    {
+        "query": "what does the srt stand for on dodge vehicles",
+        "target": "Street & Racing Technology",
+        "predicted": "Street and Racing Technology"
+    },
+    {
+        "query": "who has made the most goals in the world cup",
+        "target": "Miroslav Klose",
+        "predicted": "Miroslav Klose"
+    },
+    {
+        "query": "what is the meaning of indian flag colours in hindi",
+        "target": "peace and truth",
+        "predicted": "\u0915\u0947\u0938\u0930\u093f\u092f\u093e (\u0924\u094d\u092f\u093e\u0917), \u0938\u092b\u0947\u0926 (\u0936\u093e\u0902\u0924\u093f), \u0939\u0930\u093e (\u0909\u092e\u094d\u092e\u0940\u0926)"
+    },
+    {
+        "query": "who plays peter parker's aunt in spider man homecoming",
+        "target": "Marisa Tomei",
+        "predicted": "Marisa Tomei"
+    },
+    {
+        "query": "when will hey arnold the jungle movie be on dvd",
+        "target": "February 13, 2018",
+        "predicted": "February 13, 2018"
+    },
+    {
+        "query": "where does the last name ascencio come from",
+        "target": "Spanish",
+        "predicted": "from a Spanish Christian personal name referring to the Ascension of Jesus"
+    },
+    {
+        "query": "who sang on pink floyd great gig in the sky",
+        "target": "Clare Torry",
+        "predicted": "Clare Torry"
+    },
+    {
+        "query": "who played foxy lady in smokey and the bandit",
+        "target": "Ingeborg Kjeldsen",
+        "predicted": "Sally Field"
+    },
+    {
+        "query": "when does season 5 episode 6 of the originals come out",
+        "target": "May\u00a030,\u00a02018",
+        "predicted": "Missing: outanswer"
+    },
+    {
+        "query": "when was capital punishment last used in the uk",
+        "target": "1964",
+        "predicted": "1964"
+    },
+    {
+        "query": "who is present secretary general of the uno",
+        "target": "Ant\u00f3nio Guterres",
+        "predicted": "Ant\u00f3nio Guterres"
+    },
+    {
+        "query": "who is the oldest supreme court justice currently serving",
+        "target": "Ruth Bader Ginsburg",
+        "predicted": "Clarence Thomas"
+    },
+    {
+        "query": "the tomar rajput were defeated in the middle of the 12th century by the chauhan of",
+        "target": "Shakambhari",
+        "predicted": "Ajmer"
+    },
+    {
+        "query": "who played swifty morgan in support your local gunfighter",
+        "target": "Chuck Connors",
+        "predicted": "James Garner"
+    },
+    {
+        "query": "how many british thermal units are in one ton of cooling",
+        "target": "12,000\u00a0Btu/h",
+        "predicted": "12,000 BTU"
+    },
+    {
+        "query": "what is the meaning of the last name salazar",
+        "target": "old hall",
+        "predicted": "\"From the salt flats\""
+    },
+    {
+        "query": "when did tottenham last win the fa cup",
+        "target": "1990s",
+        "predicted": "1991"
+    },
+    {
+        "query": "who won the us women's open tennis championship",
+        "target": "Sloane Stephens",
+        "predicted": "Jeongeun Lee"
+    },
+    {
+        "query": "who does drew barrymore play on family guy",
+        "target": "Jillian Russell",
+        "predicted": "Jillian"
+    },
+    {
+        "query": "who put the turkey in the toilet bob's burgers",
+        "target": "Bob",
+        "predicted": "Teddy"
+    },
+    {
+        "query": "when does the season 14 of criminal minds start",
+        "target": "October 3, 2018",
+        "predicted": "October 3, 2018"
+    },
+    {
+        "query": "who tried to legislate a value for pi",
+        "target": "amateur mathematician Edward J. Goodwin",
+        "predicted": "Indiana Legislature"
+    },
+    {
+        "query": "who is the actor that does the allstate commercials",
+        "target": "Dennis Dexter Haysbert",
+        "predicted": "Dennis Haysbert"
+    },
+    {
+        "query": "who played charlie's voice on charlie's angels",
+        "target": "John Forsythe",
+        "predicted": "John Forsythe"
+    },
+    {
+        "query": "what is the interior angle of a 20 sided polygon",
+        "target": "162\u00b0",
+        "predicted": "162 degrees"
+    },
+    {
+        "query": "when was the last time congress overrode a veto",
+        "target": "December 30, 2009",
+        "predicted": "the first time this has happened in his presidency"
+    },
+    {
+        "query": "who played the little boy in sleepless in seattle",
+        "target": "Ross Aaron Malinger",
+        "predicted": "Ross Malinger"
+    },
+    {
+        "query": "in the wizard of oz what was the lion lacking",
+        "target": "courage",
+        "predicted": "Courage"
+    },
+    {
+        "query": "when did the open last take place at carnousti",
+        "target": "2007",
+        "predicted": "2009"
+    },
+    {
+        "query": "the oldest era of geologic time is the",
+        "target": "Cenozoic",
+        "predicted": "Hadean"
+    },
+    {
+        "query": "who has a grammy oscar tony and emmy",
+        "target": "Mike Nichols",
+        "predicted": "Robert Lopez"
+    },
+    {
+        "query": "the musketeers' trophy is awarded to the winner of men's singles title in",
+        "target": "the French Open",
+        "predicted": "Roland Garros"
+    },
+    {
+        "query": "what are the 2 types of visual arts",
+        "target": "decorative arts and crafts",
+        "predicted": "Fine arts and applied arts"
+    },
+    {
+        "query": "who won america's next top model 21",
+        "target": "Keith Carlos",
+        "predicted": "Keith Carlos"
+    },
+    {
+        "query": "who wrote you give love a bad name",
+        "target": "Desmond Child",
+        "predicted": "Jon Bon Jovi"
+    },
+    {
+        "query": "who is running for mayor in charlotte north carolina",
+        "target": "Vi Lyles",
+        "predicted": "Vi Lyles"
+    },
+    {
+        "query": "where does the statue of liberty come from",
+        "target": "France",
+        "predicted": "France"
+    },
+    {
+        "query": "german word for taking pleasure in others misery",
+        "target": "Schadenfreude",
+        "predicted": "Schadenfreude"
+    },
+    {
+        "query": "which character from greek mythology can be described as being strong",
+        "target": "Heracles",
+        "predicted": "Heracles"
+    },
+    {
+        "query": "who played the feral kid in mad max",
+        "target": "Emil Minty",
+        "predicted": "Emil Minty"
+    },
+    {
+        "query": "what is the name of the source of alpha radiation in a smoke alarm",
+        "target": "americium-241",
+        "predicted": "Americium-241"
+    },
+    {
+        "query": "when did the human genome project start and finish",
+        "target": "2003",
+        "predicted": "1990 to 2003"
+    },
+    {
+        "query": "when did the soviet union take over poland",
+        "target": "17 September 1939",
+        "predicted": "November 1939"
+    },
+    {
+        "query": "who plays andre linoge in storm of the century",
+        "target": "Colm Feore",
+        "predicted": "Colm Feore"
+    },
+    {
+        "query": "when was nanjing(nanking) selected as the capital city of the republic of china",
+        "target": "317",
+        "predicted": "1912"
+    },
+    {
+        "query": "which minerals is abundant in the state of andhra pradesh",
+        "target": "mica",
+        "predicted": "Granite"
+    },
+    {
+        "query": "who does jamie chung play in the gifted",
+        "target": "Clarice Fong / Blink",
+        "predicted": "Clarice Fong"
+    },
+    {
+        "query": "when was lead paint banned for industrial use",
+        "target": "1978",
+        "predicted": "1978"
+    },
+    {
+        "query": "what are the different types of vegetarian diets",
+        "target": "Fruitarian diet",
+        "predicted": "Lacto-vegetarian, Ovo-vegetarian, Lacto-ovo vegetarian, Pescatarian, Vegan, Flexitarian"
+    },
+    {
+        "query": "where does the series breaking bad take place",
+        "target": "Albuquerque, New Mexico",
+        "predicted": "Albuquerque, New Mexico"
+    },
+    {
+        "query": "how many mls in a schooner glass nsw",
+        "target": "285 mL",
+        "predicted": "425 mls"
+    },
+    {
+        "query": "in which mode the communication channel is used in both directions at the same time",
+        "target": "A duplex",
+        "predicted": "Full duplex"
+    },
+    {
+        "query": "when did say it ain't so come out",
+        "target": "1994",
+        "predicted": "2002"
+    },
+    {
+        "query": "who plays james sirius potter in harry potter",
+        "target": "Will Dunn",
+        "predicted": "William Miles Dunn"
+    },
+    {
+        "query": "who kept pushing the rock up the hill",
+        "target": "Sisyphus",
+        "predicted": "Sisyphus"
+    },
+    {
+        "query": "what are the two main types of chiropractors",
+        "target": "mixers",
+        "predicted": "Diversified and Gonstead"
+    },
+    {
+        "query": "what album is the day that never comes on",
+        "target": "Death Magnetic",
+        "predicted": "Death Magnetic"
+    },
+    {
+        "query": "when did roger federer first play at wimbledon",
+        "target": "1998",
+        "predicted": "1999"
+    },
+    {
+        "query": "when does the next episode of switched at birth come out",
+        "target": "January 31, 2017",
+        "predicted": "Missing: outanswer"
+    },
+    {
+        "query": "who has the most interceptions in one nfl season",
+        "target": "Night Train Lane",
+        "predicted": "49 interceptions"
+    },
+    {
+        "query": "which case was heard by largest ever constitution bench by 13 supreme court judges",
+        "target": "Golaknath v. State of Punjab",
+        "predicted": "9 Judge Bench case"
+    },
+    {
+        "query": "who played the original fantine in les miserables",
+        "target": "Rose Laurens",
+        "predicted": "Ruthie Henshall"
+    },
+    {
+        "query": "who plays sonya on law and order svu",
+        "target": "Christine Lahti",
+        "predicted": "Christine Lahti"
+    },
+    {
+        "query": "who played stefania's dad on everybody loves raymond",
+        "target": "David Proval",
+        "predicted": "David Proval"
+    },
+    {
+        "query": "what type of server does active director run on",
+        "target": "Windows Server",
+        "predicted": "Windows Server"
+    },
+    {
+        "query": "who fought in the western front in ww1",
+        "target": "France",
+        "predicted": "Allies and Central Powers"
+    },
+    {
+        "query": "when did the original daylight savings time start",
+        "target": "April 30, 1916",
+        "predicted": "1918"
+    },
+    {
+        "query": "plant genetic material in gene-bank is preserved at 196 c in liquid nitrogen as",
+        "target": "mature seed (dry)",
+        "predicted": "mature seed (dry)"
+    },
+    {
+        "query": "who plays the genie in return of jafar",
+        "target": "Dan Castellaneta",
+        "predicted": "Dan Castellaneta"
+    },
+    {
+        "query": "when was paper money invented in the us",
+        "target": "April 2, 1792",
+        "predicted": "1861"
+    },
+    {
+        "query": "where do axon terminals of olfactory receptor cells synapse",
+        "target": "glomerulus",
+        "predicted": "glomeruli in the olfactory bulb"
+    },
+    {
+        "query": "what is a size 9 ring in mm",
+        "target": "18.95",
+        "predicted": "19.0 mm"
+    },
+    {
+        "query": "who holds the record for rushing yards in a season college",
+        "target": "Barry Sanders",
+        "predicted": "Barry Sanders"
+    },
+    {
+        "query": "lover lover you don't treat me no good no more original artist",
+        "target": "American soul group Sonia Dada",
+        "predicted": "Sonia Dada"
+    }
+]

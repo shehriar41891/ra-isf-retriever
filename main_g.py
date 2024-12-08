@@ -9,17 +9,18 @@ from modules.real_time_retriever import Googlesearch
 from modules.direct_query_llm import direct_relevant_answer
 import random
 import json
+from modules.exact_match import exact_match_score
 
 def run_program(query):
     result = get_result(query)
     result = str(result)
     if result.strip() in ['not sure','not sure.','Not sure','Not sure.']:
-        optimized_query = optimize_query(query)
-        optimized_query = str(optimized_query)
-        print('The optimized query:',optimized_query)
+        # optimized_query = optimize_query(query)
+        # optimized_query = str(optimized_query)
+        # print('The optimized query:',optimized_query)
         
         #get relevant data from pinecone if same question is asked multiple time
-        retrieved_data = query_data(optimized_query)
+        retrieved_data = query_data(query)
 
         #remove the docs with similarity score less than 0.82
         texts_with_scores = [
@@ -41,6 +42,7 @@ def run_program(query):
             print('Search Result:',search_resut)
             answer = relevant_answer(search_resut,query)
             print('End result',answer)
+            return str(answer)
     else:
         result  = direct_relevant_answer(query)
         return str(result)
@@ -52,15 +54,17 @@ with open("./dataset/natural_question/nq_open.json", "r") as file:
     nq_data = json.load(file)  # This should be a list of dictionaries (data entries)
 
 # Select 500 random samples
-random_sample = random.sample(nq_data, 4)
+random_sample = random.sample(nq_data, 50)
 
 def calculate_em_score(predictions, ground_truths):
     exact_matches = 0
     for pred, gt in zip(predictions, ground_truths):
         # Normalize both predicted and ground truth answers (strip spaces and lowercase)
         pred = str(pred)
-        if pred.strip() == gt.strip():
-            exact_matches += 1
+        if exact_match_score(pred,gt) == 1:
+            exact_matches= exact_matches+1
+        # if pred.strip() == gt.strip():
+        #     exact_matches += 1
     em_score = (exact_matches / len(ground_truths)) * 100
     return em_score
 
@@ -68,7 +72,7 @@ def calculate_em_score(predictions, ground_truths):
 with open("./dataset/natural_question/nq_open.json", "r") as file:
     nq_data = json.load(file)
 
-random_sample = random.sample(nq_data, 500)
+random_sample = random.sample(nq_data, 100)
 
 # Run the program and save results
 predictions = []
@@ -78,12 +82,15 @@ for entry in random_sample:
     query = entry["question"]
     target = entry["answer"][0]  # Assuming "answer" is a list with one correct answer
     prediction = run_program(query)
+    print(prediction)
     predictions.append(prediction)
     ground_truths.append(target)
 
 # Calculate the EM score
-em_score = calculate_em_score(predictions, ground_truths)
+em_score = calculate_em_score(predictions, ground_truths)   
 print(f"Exact Match (EM) Score: {em_score:.2f}%")
+
+print(predictions)
 
 # Save predictions and targets to a file
 output_data = [
@@ -91,7 +98,13 @@ output_data = [
     for entry, pred in zip(random_sample, predictions)
 ]
 
-with open("predictions.json", "w") as output_file:
+import random
+# Generate a random integer and append it to the file name
+file_name = f"./nq_predictions/predictions_{random.randint(0, 99)}.json"
+
+# Write output_data to the file
+with open(file_name, "w") as output_file:
     json.dump(output_data, output_file, indent=4)
+
 
 print("Predictions saved to predictions.json")

@@ -65,7 +65,7 @@ crew = Crew(
     max_iterations=2,
 )
 
-def relevant_answer(user_query, results):
+def relevant_answer(results, user_query):
     result = crew.kickoff(inputs={'text': results, 'query': user_query})
     return result
 
